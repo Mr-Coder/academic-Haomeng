@@ -149,3 +149,33 @@
 .author-card .author-links a {
   color: #f5f6fa !important;
 } 
+
+/* Publications section: 强制深色字体，保证对比度 */
+.home-section#publications,
+.home-section#publications .card,
+.home-section#publications .article-title,
+.home-section#publications .article-content,
+.home-section#publications .article-metadata,
+.home-section#publications .pub-publication,
+.home-section#publications .article-date,
+.home-section#publications .article-tags,
+.home-section#publications .btn,
+.home-section#publications .btn-primary,
+.home-section#publications .btn-outline-primary,
+.home-section#publications .author-card,
+.home-section#publications .author-card .author-name,
+.home-section#publications .author-card .author-title,
+.home-section#publications .author-card .author-organization {
+  color: #222 !important;
+  background: none !important;
+  text-shadow: none !important;
+}
+
+.home-section#publications .btn,
+.home-section#publications .btn-primary,
+.home-section#publications .btn-outline-primary {
+  color: #fff !important;
+  background: #357abd !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+} 
