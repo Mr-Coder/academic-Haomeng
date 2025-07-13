@@ -6,6 +6,7 @@ tags:
 - Computer Vision
 - Python
 - TensorFlow
+- Educational Technology
 categories:
 - Project
 date: "2024-01-01T00:00:00Z"
