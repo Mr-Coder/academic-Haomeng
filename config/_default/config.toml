@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "孟皓的学术主页"
+title = "Hao Meng - Academic Homepage"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -14,7 +14,7 @@ baseurl = "/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy; {year} 孟皓. All rights reserved."
+copyright = "&copy; {year} Hao Meng. All rights reserved."
 
 # Google Analytics (legacy support)
 GoogleAnalytics = ""
@@ -31,18 +31,8 @@ enableGitInfo = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
-removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
-
-summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-# Pagination settings
-[pagination]
-  pagerSize = 10
+removePathAccents = true
 
 # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
 [permalinks]
@@ -51,63 +41,150 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   categories = "/category/:slug/"
   publication_types = "/publication-type/:slug/"
 
-[outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
-  section = [ "HTML", "RSS" ]
+############################
+## Modules
+############################
 
-[mediaTypes."application/manifest+json"]
-  suffixes = ["webmanifest"]
+[module]
+  # Your copyright license text appears here.
+  # Default: CC BY 4.0
+  # All available licenses - https://creativecommons.org/licenses/
+  license = "CC BY 4.0"
+  # Link to license text
+  license_link = "https://creativecommons.org/licenses/by/4.0"
 
-[outputFormats.WebAppManifest]
-  mediaType = "application/manifest+json"
-  rel = "manifest"
+############################
+## Advanced
+############################
 
-# Configure the Markdown renderer.
-[markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
-  [markup.highlight]
-    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 3
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+[params.main_menu]
+  align = "l"
+  show_logo = true
+  highlight_active_link = true
+  show_language = false
+  show_day_night = true
+  show_search = true
 
-[imaging]
-  resampleFilter = "lanczos"
-  quality = 90
-  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+# Show estimated reading time for posts? (true/false)
+reading_time = true
 
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
-  author = "authors"
+# Display next/previous section pager? (true/false)
+section_pager = false
+docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
-# Related content.
-[related]
-  threshold = 80.0
-  includeNewer = true
-  toLower = true
+# Enable in-built social sharing buttons? (true/false)
+sharing = true
 
-  [[related.indices]]
-    name = "title"
-    weight = 60.0
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
+copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
-  [[related.indices]]
-    name = "summary"
-    weight = 50.0
+# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
+abstract_length = 135
 
-  [[related.indices]]
-    name = "tags"
-    weight = 80.0
+# Load JS plugins
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_js = []
 
-  [[related.indices]]
-    name = "categories"
-    weight = 70.0
+# Avatars.
+# An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = false
 
-  [[related.indices]]
-    name = "authors"
-    weight = 20.0
+  # Choose a shape for avatar images. Options: circle, square.
+  shape = "circle"
+
+# Configuration of publication pages.
+[publications]
+  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "January 2006"
+
+  # Citation style ("apa" or "mla")
+  citation_style = "apa"
+
+# Configuration of project pages.
+[projects]
+  # Views for associated content.
+  #   1: List
+  #   2: Compact
+  #   3: Card
+  #   4: Citation (publications only)
+  post_view = 2
+  publication_view = 2
+  talk_view = 2
+
+############################
+## Comments
+############################
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  provider = 0
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
+
+  # Configuration of Commento.
+  [comments.commento]
+    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+    url = ""
+
+############################
+## Search
+############################
+[search]
+  # Search provider:
+  #   0: No search engine
+  #   1: Academic (built-in)
+  #   2: Algolia (https://www.algolia.com)
+  provider = 1
+
+  # Configuration of Algolia search engine.
+  # Paste the values from your Algolia dashboard.
+  [search.algolia]
+    app_id = ""
+    api_key = ""
+    index_name = ""
+    show_logo = false
+
+############################
+## Maps
+############################
+[map]
+  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+  # and choose a map provider below.
+  #
+  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `engine` to 2.
+  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  engine = 2
+  api_key = ""
+  zoom = 15
+
+############################
+## Marketing
+############################
+[marketing]
+  google_analytics = ""
+  google_tag_manager = ""
+  google_site_verification = ""
+  baidu_site_verification = ""
+  baidu_tongji = ""

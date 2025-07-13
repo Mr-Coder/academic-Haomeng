@@ -45,10 +45,10 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "Central China Normal University"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "孟皓的学术主页 - 华中师范大学-伍伦贡大学博士研究生，专注于智慧教育、智慧科研和知识图谱研究"
+description = "Hao Meng's Academic Homepage - Ph.D. Candidate in Education Technology at Central China Normal University, specializing in Intelligent Tutoring Systems, Technology Enhanced Learning, and Automated Problem Solving"
 
 ############################
 ## Site Features
@@ -88,23 +88,23 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "menghao@example.edu"
+email = "menghao@mails.ccnu.edu.cn"
 phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "华中师范大学计算机学院", city = "武汉", region = "湖北省", postcode = "430079", country = "中国", country_code = "CN"}
+address = {street = "Faculty of Artificial Intelligence in Education, Central China Normal University", city = "Wuhan", region = "Hubei Province", postcode = "430079", country = "China", country_code = "CN"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates = {latitude = "30.5234", longitude = "114.3142"}
 
 # Directions for visitors to locate you.
-directions = "华中师范大学计算机学院"
+directions = "Faculty of Artificial Intelligence in Education, Central China Normal University"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["周一 9:00-17:00", "周三 9:00-17:00", "周五 9:00-17:00"]
+office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""
@@ -112,10 +112,10 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "researchgate", icon_pack = "ai", name = "ResearchGate", link = "https://www.researchgate.net/profile/your-profile"},
-  {icon = "google-scholar", icon_pack = "ai", name = "Google Scholar", link = "https://scholar.google.com/citations?user=youruserid"},
-  {icon = "orcid", icon_pack = "ai", name = "ORCID", link = "https://orcid.org/your-orcid-id"},
-  # {icon = "wechat", icon_pack = "fab", name = "微信", link = "weixin://"},
+  #{icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
 ############################
@@ -134,19 +134,24 @@ twitter = ""
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "2006年1月2日"
-#   Examples: "3:04 pm" or "15:04"
-time_format = "15:04"
+date_format = "Jan 2, 2006"
+time_format = "3:04 PM"
 
-# Address format (choose from the [address_formats] list below or add you own to the list).
-address_format = "zh"
+# Address format (choose from the 15 available country formats - see https://sourcethemes.com/academic/docs/customization/#address-format)
+address_format = "en-us"
 
 ############################
 ## Advanced
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true}
+[main_menu]
+align = "l"
+show_logo = true
+highlight_active_link = true
+show_language = false
+show_day_night = true
+show_search = true
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -162,21 +167,14 @@ sharing = true
 # Page specific copyright licenses are also possible by adding this option to a page's front matter.
 copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
-# Highlight the site author (superuser) in author lists? (true/false)
-highlight_superuser = true
-
-# Link authors to their profile page? (true/false)
-link_authors = true
-
 # Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
 abstract_length = 135
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = []
+plugins_js = []
 
 # Avatars.
-# An avatar is an image that appears next to a user's name.
 # An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
 [avatar]
   # Get user avatars from Gravatar.com? (true/false)
@@ -197,7 +195,7 @@ plugins_js  = []
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "2006年1月"
+  date_format = "January 2006"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
@@ -221,7 +219,7 @@ plugins_js  = []
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  engine = 0
+  provider = 0
 
   # Which page types are commentable?
   commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
@@ -231,11 +229,6 @@ plugins_js  = []
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
-  # Configuration of Commento.
-  [comments.commento]
-    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
-    url = ""
-
 ############################
 ## Search
 ############################
@@ -244,7 +237,7 @@ plugins_js  = []
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  provider = 1
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -282,10 +275,6 @@ plugins_js  = []
 [marketing]
   google_analytics = ""
   google_tag_manager = ""
-
-############################
-## Content Management System
-############################
-[cms]
-  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
-  netlify_cms = true
+  google_site_verification = ""
+  baidu_site_verification = ""
+  baidu_tongji = ""
