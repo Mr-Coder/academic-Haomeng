@@ -3,7 +3,7 @@
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 45  # Order that this section will appear.
+weight = 15  # Move to top, just after hero
 
 title = "Research Projects"
 subtitle = "🔬 Current and Past Research Initiatives"
@@ -78,4 +78,6 @@ subtitle = "🔬 Current and Past Research Initiatives"
  # CSS class.
  css_class = ""
 +++
+
+{{< button url="/project/" text="View All Research Projects" icon_pack="fas" icon="folder-open" color="primary" >}}
 

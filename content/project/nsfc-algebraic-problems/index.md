@@ -1,21 +1,17 @@
 ---
-title: 基于深度关系网络的代数问题求解增强算法研究
-summary: 参与国家自然科学基金项目，研究基于深度关系网络的代数问题求解增强算法，提升教育智能系统中的数学问题求解能力。
+title: "Research on Enhanced Algorithms for Algebraic Problem Solving Based on Deep Relational Networks"
+summary: "Participated in a major research project funded by the National Natural Science Foundation of China, focusing on enhanced algorithms for algebraic problem solving based on deep relational networks to improve the problem-solving capabilities of educational intelligent systems."
 tags:
-- 国家自然科学基金
-- 深度关系网络
-- 代数问题求解
-- 教育智能系统
-- 算法研究
+- National Natural Science Foundation
+- Deep Relational Network
+- Algebraic Problem Solving
+- Educational Intelligent System
+- Algorithm Research
 date: "2020-01-01T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
 external_link: ""
-
 image:
-  caption: 基于深度关系网络的代数问题求解系统架构
+  caption: "System Architecture Based on Deep Relational Networks for Algebraic Problem Solving"
   focal_point: Smart
-
 links:
 - icon: github
   icon_pack: fab
@@ -25,104 +21,103 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-
 slides: ""
 ---
 
-## 项目概述
+## Project Overview
 
-本项目是国家自然科学基金资助的重要研究项目（2020-2023年），专注于研究基于深度关系网络的代数问题求解增强算法。该项目旨在解决教育智能系统开发中代数问题求解算法的关键技术问题，提升机器对数学问题的理解和求解能力。
+This project (2020-2023) is a major research initiative funded by the National Natural Science Foundation of China. It focuses on enhanced algorithms for algebraic problem solving based on deep relational networks, aiming to address key technical challenges in the development of educational intelligent systems and improve machine understanding and problem-solving capabilities for mathematical problems.
 
-## 研究背景
+## Research Background
 
-代数问题求解算法是开发教育智能系统的关键技术。传统的求解方法在处理复杂的数学关系和推理过程时存在局限性，特别是在理解问题语义和建立数学关系方面。本项目提出了一系列新的方法来解决这些问题。
+Algebraic problem-solving algorithms are key technologies for developing educational intelligent systems. Traditional methods have limitations in handling complex mathematical relationships and reasoning processes, especially in understanding problem semantics and building mathematical relationships. This project proposes a series of new methods to address these challenges.
 
-## 主要研究内容
+## Main Research Content
 
-### 1. 问题理解性能增强方法
-- **语义理解**：开发先进的自然语言理解技术，提升对数学问题描述的理解能力
-- **关键信息提取**：设计高效的信息提取算法，准确识别问题中的关键数学信息
-- **上下文建模**：建立完善的上下文建模机制，处理复杂的问题场景
+### 1. Methods for Enhancing Problem Comprehension
+- **Semantic Understanding**: Develops advanced natural language understanding techniques to improve comprehension of mathematical problem descriptions.
+- **Key Information Extraction**: Designs efficient algorithms for extracting key mathematical information from problems.
+- **Context Modeling**: Establishes comprehensive context modeling mechanisms to handle complex problem scenarios.
 
-### 2. 数学关系求解性能增强方法
-- **关系网络构建**：构建深度关系网络，表示数学对象之间的复杂关系
-- **推理算法优化**：开发高效的数学推理算法，提升求解准确性和效率
-- **多步骤求解**：支持多步骤的复杂数学问题求解过程
+### 2. Methods for Enhancing Mathematical Relationship Solving
+- **Relational Network Construction**: Builds deep relational networks to represent complex relationships among mathematical objects.
+- **Reasoning Algorithm Optimization**: Develops efficient mathematical reasoning algorithms to improve solution accuracy and efficiency.
+- **Multi-step Problem Solving**: Supports multi-step solution processes for complex mathematical problems.
 
-### 3. 方法融合与算法集成
-- **多模块融合**：将不同的增强方法有效融合，建立统一的求解框架
-- **算法优化**：优化整体算法性能，提升求解速度和准确性
-- **系统集成**：将算法集成到实际的教育智能系统中
+### 3. Method Integration and Algorithm Aggregation
+- **Multi-module Integration**: Effectively integrates different enhancement methods to establish a unified solution framework.
+- **Algorithm Optimization**: Optimizes overall algorithm performance to improve solution speed and accuracy.
+- **System Integration**: Integrates algorithms into practical educational intelligent systems.
 
-## 技术创新点
+## Technical Innovations
 
-### 深度关系网络架构
-- **多层次关系建模**：建立多层次的数学关系表示模型
-- **动态关系更新**：支持关系网络的动态更新和优化
-- **关系推理机制**：设计高效的关系推理算法
+### Deep Relational Network Architecture
+- **Multi-layer Relational Modeling**: Establishes multi-layer mathematical relationship representation models.
+- **Dynamic Relationship Updating**: Supports dynamic updating and optimization of relational networks.
+- **Relational Reasoning Mechanisms**: Designs efficient relational reasoning algorithms.
 
-### 增强学习策略
-- **自适应学习**：采用增强学习策略，不断优化求解性能
-- **经验积累**：建立经验积累机制，提升系统的学习能力
-- **策略优化**：持续优化求解策略，适应不同类型的数学问题
+### Enhanced Learning Strategies
+- **Adaptive Learning**: Employs reinforcement learning strategies to continuously optimize solution performance.
+- **Experience Accumulation**: Establishes mechanisms for accumulating experience to improve system learning capabilities.
+- **Strategy Optimization**: Continuously optimizes solution strategies to adapt to different types of mathematical problems.
 
-### 多模态信息处理
-- **文本信息处理**：高效处理数学问题的文本描述
-- **图形信息理解**：支持数学图形和图表的理解
-- **符号推理**：处理数学符号和公式的推理过程
+### Multi-modal Information Processing
+- **Text Information Processing**: Efficiently processes textual descriptions of mathematical problems.
+- **Graphical Information Understanding**: Supports understanding of mathematical graphics and tables.
+- **Symbolic Reasoning**: Handles reasoning processes involving mathematical symbols and formulas.
 
-## 研究成果
+## Research Outcomes
 
-### 算法贡献
-- **新型算法框架**：提出了基于深度关系网络的求解算法框架
-- **性能提升**：相比传统方法，求解准确率提升了20-30%
-- **效率优化**：算法执行效率显著提升，支持实时求解
+### Algorithmic Contributions
+- **Novel Algorithm Framework**: Proposed a new framework for problem-solving algorithms based on deep relational networks.
+- **Performance Improvement**: Achieved 20-30% improvement in solution accuracy compared to traditional methods.
+- **Efficiency Optimization**: Significantly improved algorithm execution efficiency, supporting real-time problem solving.
 
-### 学术影响
-- **高质量论文**：发表多篇高质量学术论文
-- **国际会议**：在重要国际会议上发表研究成果
-- **同行认可**：获得学术界的广泛认可和引用
+### Academic Impact
+- **High-quality Papers**: Published multiple high-quality academic papers.
+- **International Conferences**: Presented research results at major international conferences.
+- **Peer Recognition**: Widely recognized and cited by the academic community.
 
-### 应用价值
-- **教育系统集成**：算法已集成到多个教育智能系统中
-- **产业应用**：技术成果在教育产业中得到应用
-- **社会效益**：为提升数学教育质量做出贡献
+### Application Value
+- **Educational System Integration**: Algorithms have been integrated into multiple educational intelligent systems.
+- **Industrial Applications**: Technical achievements have been applied in the education industry.
+- **Social Benefits**: Contributed to improving the quality of mathematics education.
 
-## 项目团队
+## Project Team
 
-### 核心成员
-- **项目负责人**：余新国教授（华中师范大学）
-- **主要参与者**：孟皓（博士研究生）
-- **合作单位**：华中师范大学人工智能教育学部
+### Core Members
+- **Project Leader**: Prof. Xinguo Yu (Central China Normal University)
+- **Main Participant**: Hao Meng (Ph.D. Candidate)
+- **Collaborating Institution**: Faculty of Artificial Intelligence in Education, Central China Normal University
 
-### 研究分工
-- **理论研究**：深度关系网络理论与算法设计
-- **系统开发**：算法实现与系统集成
-- **实验验证**：算法性能评估与优化
-- **应用推广**：技术转化与产业应用
+### Research Division
+- **Theoretical Research**: Deep relational network theory and algorithm design
+- **System Development**: Algorithm implementation and system integration
+- **Experimental Validation**: Algorithm performance evaluation and optimization
+- **Application Promotion**: Technology transfer and industrial application
 
-## 项目影响
+## Project Impact
 
-### 学术影响
-- 推动了代数问题求解算法的理论发展
-- 为教育智能系统的技术进步做出贡献
-- 促进了人工智能在教育领域的应用研究
+### Academic Impact
+- Advanced the theoretical development of algebraic problem-solving algorithms
+- Contributed to technological progress in educational intelligent systems
+- Promoted AI applications in the field of education
 
-### 社会影响
-- 提升了数学教育的智能化水平
-- 为学生提供更好的数学学习支持
-- 推动了教育信息化的发展
+### Social Impact
+- Improved the level of intelligent mathematics education
+- Provided better learning support for students
+- Promoted the development of educational informatization
 
-## 未来展望
+## Future Prospects
 
-### 技术发展
-- **算法优化**：持续优化算法性能，处理更复杂的数学问题
-- **应用扩展**：将技术扩展到更多的数学领域
-- **智能化提升**：进一步提升系统的智能化水平
+### Technical Development
+- **Algorithm Optimization**: Continuously optimize algorithm performance to handle more complex mathematical problems
+- **Application Expansion**: Extend technology to more mathematical domains
+- **Intelligent Enhancement**: Further improve the intelligence level of the system
 
-### 产业化前景
-- **商业应用**：推动技术的商业化应用
-- **产品开发**：开发基于该技术的教育产品
-- **市场推广**：扩大技术的市场应用范围
+### Industrial Prospects
+- **Commercial Applications**: Promote the commercialization of the technology
+- **Product Development**: Develop educational products based on the technology
+- **Market Expansion**: Expand the market application scope of the technology
 
-该项目代表了在代数问题求解算法研究领域的重要突破，为教育智能系统的发展提供了强有力的技术支撑。 
+This project represents a significant breakthrough in the field of algebraic problem-solving algorithm research and provides strong technical support for the development of educational intelligent systems. 
