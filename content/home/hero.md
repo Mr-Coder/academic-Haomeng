@@ -5,10 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = ""
+title = "Hao Meng"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = ""
+hero_media = "avatar.jpg"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -37,40 +37,19 @@ hero_media = ""
   url = "#about"
   label = "Learn More"
   icon_pack = "fas"
-  icon = "arrow-down"
+  icon = "user-graduate"
   
 [cta_alt]
   url = "#publications"
   label = "View Research"
-  icon_pack = "fas"
-  icon = "book-open"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = ''
+  label = 'Ph.D. Candidate in Education Technology at Central China Normal University'
 +++
 
-<div class="hero-container">
-  <div class="hero-content">
-    <h1 class="hero-title">Hao Meng</h1>
-    <p class="hero-subtitle">Ph.D. Candidate in Education Technology</p>
-    <p class="hero-description">
-      Exploring the intersection of <strong>Artificial Intelligence</strong> and <strong>Education</strong> to create innovative learning solutions. Specializing in Intelligent Tutoring Systems, automated problem solving, and educational technology research at Central China Normal University.
-    </p>
-    <div class="hero-cta">
-      <a href="#about" class="btn-modern btn-primary-modern">
-        <i class="fas fa-user-graduate"></i>
-        About Me
-      </a>
-      <a href="#publications" class="btn-modern btn-secondary-modern">
-        <i class="fas fa-book-open"></i>
-        Research
-      </a>
-    </div>
-  </div>
-  <div class="hero-visual">
-    <div class="hero-photo">
-      <img src="/authors/admin/avatar.jpg" alt="Hao Meng Profile Photo">
-    </div>
-  </div>
-</div>
+**Exploring the intersection of Artificial Intelligence and Education** to create innovative learning solutions. 
+
+Specializing in **Intelligent Tutoring Systems**, **automated problem solving**, and **educational technology research** with focus on mathematics education.
+
+🔬 Developing cutting-edge **qualia role-based entity-dependency graphs** for Chinese algebra story problems.
