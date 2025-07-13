@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Skills"
-subtitle = ""
+subtitle = "Technical Expertise & Research Competencies"
 
 # Showcase personal skills or business features.
 # 
@@ -18,72 +18,53 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "高级水平 - 深度学习、自然语言处理、数据分析"
+  description = "Advanced - Deep Learning, NLP, Data Analysis with TensorFlow, PyTorch, scikit-learn"
   
 [[feature]]
   icon = "java"
   icon_pack = "fab"
   name = "Java"
-  description = "熟练掌握 - 系统开发、算法实现"
+  description = "Proficient - System Development, Algorithm Implementation, Educational Software"
   
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "数据分析、统计建模、可视化"
+  description = "Statistical Analysis, Data Visualization, Educational Research Methods"
 
 [[feature]]
   icon = "code"
   icon_pack = "fas"
   name = "LaTeX"
-  description = "学术写作、论文排版、文档制作"
+  description = "Academic Writing, Publication-ready Documents, Conference Presentations"
 
 [[feature]]
   icon = "brain"
   icon_pack = "fas"
-  name = "机器学习"
-  description = "深度学习、神经网络、自然语言处理"
+  name = "Machine Learning"
+  description = "Deep Learning, Neural Networks, Natural Language Processing, Knowledge Graphs"
 
 [[feature]]
   icon = "graduation-cap"
   icon_pack = "fas"
-  name = "学术研究"
-  description = "研究方法论、实验设计、论文写作"
-
-[[feature]]
-  icon = "chalkboard-teacher"
-  icon_pack = "fas"
-  name = "教学培训"
-  description = "课程教学、学生指导、教学评估"
+  name = "Academic Research"
+  description = "Educational Technology, Intelligent Tutoring Systems, Research Methodology"
 
 [[feature]]
   icon = "users"
   icon_pack = "fas"
-  name = "学术服务"
-  description = "会议组织、论文审稿、同行评议"
-
-[[feature]]
-  icon = "language"
-  icon_pack = "fas"
-  name = "语言能力"
-  description = "中文（母语）、英语（流利）"
+  name = "Teaching & Mentoring"
+  description = "Teaching Assistant, Student Supervision, Conference Organization"
 
 [[feature]]
   icon = "project-diagram"
   icon_pack = "fas"
-  name = "系统开发"
-  description = "智能教学系统、算法实现、软件工程"
+  name = "System Design"
+  description = "Educational AI Systems, Problem Solving Algorithms, Software Architecture"
 
 [[feature]]
-  icon = "chart-line"
+  icon = "language"
   icon_pack = "fas"
-  name = "数据分析"
-  description = "统计分析、数据挖掘、可视化"
-
-[[feature]]
-  icon = "lightbulb"
-  icon_pack = "fas"
-  name = "创新研究"
-  description = "算法创新、问题求解、技术突破"
-
+  name = "Languages"
+  description = "Chinese (Native), English (Fluent - Academic & Professional)"
 +++

@@ -1,5 +1,6 @@
 ---
 title: Publications
+cms_exclude: true
 
 # View.
 #   1 = List
@@ -13,3 +14,5 @@ header:
   caption: ""
   image: ""
 ---
+
+Here you can find my published research papers in the areas of Educational Technology, Artificial Intelligence in Education, and Math Word Problem Solving.
