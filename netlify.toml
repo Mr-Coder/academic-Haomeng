@@ -7,8 +7,11 @@
   HUGO_ENABLEGITINFO = "true"
   NODE_VERSION = "18"
 
-[context.production.environment]
-  HUGO_ENV = "production"
+# Specify modern build image
+[context.production]
+  command = "hugo --gc --minify -b $URL"
+  [context.production.environment]
+    HUGO_ENV = "production"
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
