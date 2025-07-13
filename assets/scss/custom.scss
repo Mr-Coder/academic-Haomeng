@@ -1,0 +1,125 @@
+/* Custom styles for improved layout and design */
+
+/* Add some spacing and visual improvements */
+.home-section {
+  padding: 60px 0;
+}
+
+/* Improve card layouts */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Improve feature blocks (skills section) */
+.featurette-icon {
+  font-size: 3rem;
+  color: #3f51b5;
+  margin-bottom: 1rem;
+}
+
+/* Add gradient backgrounds for alternating sections */
+.home-section:nth-child(even) {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Improve hero section */
+.hero-widget {
+  padding: 80px 0;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.hero-lead {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/* Improve button styles */
+.btn-primary {
+  background: linear-gradient(45deg, #3f51b5, #1a237e);
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-weight: 500;
+  text-transform: none;
+  box-shadow: 0 4px 15px rgba(63, 81, 181, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(63, 81, 181, 0.4);
+}
+
+/* Improve section titles */
+.section-heading h1 {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.section-subheading {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+/* Add some animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-section {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Improve project cards */
+.isotope-item {
+  margin-bottom: 2rem;
+}
+
+.card-simple {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card-simple:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-lead {
+    font-size: 1.1rem;
+  }
+  
+  .home-section {
+    padding: 40px 0;
+  }
+} 

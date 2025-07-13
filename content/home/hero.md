@@ -2,13 +2,13 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Hao Meng"
+title = "Hao Meng (孟皓)"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "hero-academic.png"
+hero_media = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -20,8 +20,8 @@ hero_media = "hero-academic.png"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "#4a90e2"
-  gradient_end = "#357abd"
+  gradient_start = "#3f51b5"
+  gradient_end = "#1a237e"
   
   # Background image.
   # image = ""  # Name of image in `static/img/`.
@@ -35,23 +35,23 @@ hero_media = "hero-academic.png"
 
 [cta]
   url = "#about"
-  label = "Learn More"
+  label = "Learn More About Me"
   icon_pack = "fas"
-  icon = "chevron-circle-down"
+  icon = "user-graduate"
   
 [cta_alt]
   url = "#publications"
-  label = "View Publications"
+  label = "View My Research"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = 'Central China Normal University • Faculty of AI in Education'
+  label = '🎓 Central China Normal University • Faculty of AI in Education'
 +++
 
 **Ph.D. Candidate in Education Technology**
 
-Exploring the intersection of **Artificial Intelligence** and **Education** to create innovative learning solutions.
+🚀 Exploring the intersection of **Artificial Intelligence** and **Education** to create innovative learning solutions for the future.
 
-Specializing in Intelligent Tutoring Systems, Technology Enhanced Learning, and Automated Problem Solving for mathematics education.
+🔬 Specializing in **Intelligent Tutoring Systems**, **Technology Enhanced Learning**, and **Automated Problem Solving** for mathematics education.
 
-<span style="text-shadow: none;"><a class="github-button" href="https://github.com/Mr-Coder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Follow @Mr-Coder</a></span>
+📚 Developing cutting-edge **qualia role-based entity-dependency graphs** for Chinese algebra story problems.

@@ -3,10 +3,10 @@
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 25  # Order that this section will appear.
 
-title = "Skills"
-subtitle = "Technical Expertise & Research Competencies"
+title = "Skills & Expertise"
+subtitle = "🛠️ Technical Competencies & Research Capabilities"
 
 # Showcase personal skills or business features.
 # 
