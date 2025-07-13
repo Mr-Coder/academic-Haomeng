@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithm Research | Hao Meng - Academic Homepage</title><link>/tag/algorithm-research/</link><atom:link href="/tag/algorithm-research/index.xml" rel="self" type="application/rss+xml"/><description>Algorithm Research</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 Hao Meng. All rights reserved.</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_a9296fd8e02a9164.png</url><title>Algorithm Research</title><link>/tag/algorithm-research/</link></image><item><title>Research on Enhanced Algorithms for Algebraic Problem Solving Based on Deep Relational Networks</title><link>/project/nsfc-algebraic-problems/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>/project/nsfc-algebraic-problems/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This project (2020-2023) is a major research initiative funded by the National Natural Science Foundation of China. It focuses on enhanced algorithms for algebraic problem solving based on deep relational networks, aiming to address key technical challenges in the development of educational intelligent systems and improve machine understanding and problem-solving capabilities for mathematical problems.&lt;/p>
+&lt;h2 id="research-background">Research Background&lt;/h2>
+&lt;p>Algebraic problem-solving algorithms are key technologies for developing educational intelligent systems. Traditional methods have limitations in handling complex mathematical relationships and reasoning processes, especially in understanding problem semantics and building mathematical relationships. This project proposes a series of new methods to address these challenges.&lt;/p>
+&lt;h2 id="main-research-content">Main Research Content&lt;/h2>
+&lt;h3 id="1-methods-for-enhancing-problem-comprehension">1. Methods for Enhancing Problem Comprehension&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Semantic Understanding&lt;/strong>: Develops advanced natural language understanding techniques to improve comprehension of mathematical problem descriptions.&lt;/li>
+&lt;li>&lt;strong>Key Information Extraction&lt;/strong>: Designs efficient algorithms for extracting key mathematical information from problems.&lt;/li>
+&lt;li>&lt;strong>Context Modeling&lt;/strong>: Establishes comprehensive context modeling mechanisms to handle complex problem scenarios.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-methods-for-enhancing-mathematical-relationship-solving">2. Methods for Enhancing Mathematical Relationship Solving&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Relational Network Construction&lt;/strong>: Builds deep relational networks to represent complex relationships among mathematical objects.&lt;/li>
+&lt;li>&lt;strong>Reasoning Algorithm Optimization&lt;/strong>: Develops efficient mathematical reasoning algorithms to improve solution accuracy and efficiency.&lt;/li>
+&lt;li>&lt;strong>Multi-step Problem Solving&lt;/strong>: Supports multi-step solution processes for complex mathematical problems.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-method-integration-and-algorithm-aggregation">3. Method Integration and Algorithm Aggregation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Multi-module Integration&lt;/strong>: Effectively integrates different enhancement methods to establish a unified solution framework.&lt;/li>
+&lt;li>&lt;strong>Algorithm Optimization&lt;/strong>: Optimizes overall algorithm performance to improve solution speed and accuracy.&lt;/li>
+&lt;li>&lt;strong>System Integration&lt;/strong>: Integrates algorithms into practical educational intelligent systems.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-innovations">Technical Innovations&lt;/h2>
+&lt;h3 id="deep-relational-network-architecture">Deep Relational Network Architecture&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Multi-layer Relational Modeling&lt;/strong>: Establishes multi-layer mathematical relationship representation models.&lt;/li>
+&lt;li>&lt;strong>Dynamic Relationship Updating&lt;/strong>: Supports dynamic updating and optimization of relational networks.&lt;/li>
+&lt;li>&lt;strong>Relational Reasoning Mechanisms&lt;/strong>: Designs efficient relational reasoning algorithms.&lt;/li>
+&lt;/ul>
+&lt;h3 id="enhanced-learning-strategies">Enhanced Learning Strategies&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Adaptive Learning&lt;/strong>: Employs reinforcement learning strategies to continuously optimize solution performance.&lt;/li>
+&lt;li>&lt;strong>Experience Accumulation&lt;/strong>: Establishes mechanisms for accumulating experience to improve system learning capabilities.&lt;/li>
+&lt;li>&lt;strong>Strategy Optimization&lt;/strong>: Continuously optimizes solution strategies to adapt to different types of mathematical problems.&lt;/li>
+&lt;/ul>
+&lt;h3 id="multi-modal-information-processing">Multi-modal Information Processing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Text Information Processing&lt;/strong>: Efficiently processes textual descriptions of mathematical problems.&lt;/li>
+&lt;li>&lt;strong>Graphical Information Understanding&lt;/strong>: Supports understanding of mathematical graphics and tables.&lt;/li>
+&lt;li>&lt;strong>Symbolic Reasoning&lt;/strong>: Handles reasoning processes involving mathematical symbols and formulas.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-outcomes">Research Outcomes&lt;/h2>
+&lt;h3 id="algorithmic-contributions">Algorithmic Contributions&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Novel Algorithm Framework&lt;/strong>: Proposed a new framework for problem-solving algorithms based on deep relational networks.&lt;/li>
+&lt;li>&lt;strong>Performance Improvement&lt;/strong>: Achieved 20-30% improvement in solution accuracy compared to traditional methods.&lt;/li>
+&lt;li>&lt;strong>Efficiency Optimization&lt;/strong>: Significantly improved algorithm execution efficiency, supporting real-time problem solving.&lt;/li>
+&lt;/ul>
+&lt;h3 id="academic-impact">Academic Impact&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>High-quality Papers&lt;/strong>: Published multiple high-quality academic papers.&lt;/li>
+&lt;li>&lt;strong>International Conferences&lt;/strong>: Presented research results at major international conferences.&lt;/li>
+&lt;li>&lt;strong>Peer Recognition&lt;/strong>: Widely recognized and cited by the academic community.&lt;/li>
+&lt;/ul>
+&lt;h3 id="application-value">Application Value&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Educational System Integration&lt;/strong>: Algorithms have been integrated into multiple educational intelligent systems.&lt;/li>
+&lt;li>&lt;strong>Industrial Applications&lt;/strong>: Technical achievements have been applied in the education industry.&lt;/li>
+&lt;li>&lt;strong>Social Benefits&lt;/strong>: Contributed to improving the quality of mathematics education.&lt;/li>
+&lt;/ul>
+&lt;h2 id="project-team">Project Team&lt;/h2>
+&lt;h3 id="core-members">Core Members&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Project Leader&lt;/strong>: Prof. Xinguo Yu (Central China Normal University)&lt;/li>
+&lt;li>&lt;strong>Main Participant&lt;/strong>: Hao Meng (Ph.D. Candidate)&lt;/li>
+&lt;li>&lt;strong>Collaborating Institution&lt;/strong>: Faculty of Artificial Intelligence in Education, Central China Normal University&lt;/li>
+&lt;/ul>
+&lt;h3 id="research-division">Research Division&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Theoretical Research&lt;/strong>: Deep relational network theory and algorithm design&lt;/li>
+&lt;li>&lt;strong>System Development&lt;/strong>: Algorithm implementation and system integration&lt;/li>
+&lt;li>&lt;strong>Experimental Validation&lt;/strong>: Algorithm performance evaluation and optimization&lt;/li>
+&lt;li>&lt;strong>Application Promotion&lt;/strong>: Technology transfer and industrial application&lt;/li>
+&lt;/ul>
+&lt;h2 id="project-impact">Project Impact&lt;/h2>
+&lt;h3 id="academic-impact-1">Academic Impact&lt;/h3>
+&lt;ul>
+&lt;li>Advanced the theoretical development of algebraic problem-solving algorithms&lt;/li>
+&lt;li>Contributed to technological progress in educational intelligent systems&lt;/li>
+&lt;li>Promoted AI applications in the field of education&lt;/li>
+&lt;/ul>
+&lt;h3 id="social-impact">Social Impact&lt;/h3>
+&lt;ul>
+&lt;li>Improved the level of intelligent mathematics education&lt;/li>
+&lt;li>Provided better learning support for students&lt;/li>
+&lt;li>Promoted the development of educational informatization&lt;/li>
+&lt;/ul>
+&lt;h2 id="future-prospects">Future Prospects&lt;/h2>
+&lt;h3 id="technical-development">Technical Development&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Algorithm Optimization&lt;/strong>: Continuously optimize algorithm performance to handle more complex mathematical problems&lt;/li>
+&lt;li>&lt;strong>Application Expansion&lt;/strong>: Extend technology to more mathematical domains&lt;/li>
+&lt;li>&lt;strong>Intelligent Enhancement&lt;/strong>: Further improve the intelligence level of the system&lt;/li>
+&lt;/ul>
+&lt;h3 id="industrial-prospects">Industrial Prospects&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Commercial Applications&lt;/strong>: Promote the commercialization of the technology&lt;/li>
+&lt;li>&lt;strong>Product Development&lt;/strong>: Develop educational products based on the technology&lt;/li>
+&lt;li>&lt;strong>Market Expansion&lt;/strong>: Expand the market application scope of the technology&lt;/li>
+&lt;/ul>
+&lt;p>This project represents a significant breakthrough in the field of algebraic problem-solving algorithm research and provides strong technical support for the development of educational intelligent systems.&lt;/p></description></item></channel></rss>

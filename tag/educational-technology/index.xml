@@ -19,7 +19,103 @@
 &lt;h2 id="experimental-results">Experimental Results&lt;/h2>
 &lt;p>The experimental evaluation demonstrates the effectiveness of the proposed method in solving Chinese algebra story problems, showing improvements over traditional end-to-end neural approaches in terms of accuracy and interpretability.&lt;/p>
 &lt;h2 id="impact">Impact&lt;/h2>
-&lt;p>This work contributes to the field of educational technology by providing a more interpretable and effective approach to automated math problem solving, with potential applications in intelligent tutoring systems and educational AI.&lt;/p></description></item><item><title>Prompt-based missing entity recovery for solving arithmetic word problems</title><link>/publication/prompt-based-missing-entity/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/publication/prompt-based-missing-entity/</guid><description>&lt;p>This paper addresses the challenge of missing entity recovery in arithmetic word problems using prompt-based techniques. The approach leverages natural language prompts to guide the system in identifying and recovering missing mathematical entities that are crucial for problem solving.&lt;/p>
+&lt;p>This work contributes to the field of educational technology by providing a more interpretable and effective approach to automated math problem solving, with potential applications in intelligent tutoring systems and educational AI.&lt;/p></description></item><item><title>Algebraic Word Problem Solving System Based on Qualia Structure</title><link>/project/smart-education-system/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/project/smart-education-system/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This project (2022-2023) is supported by the Outstanding Doctoral Dissertation Incubation Program of Central China Normal University. It focuses on research into methods for solving algebraic word problems based on qualia structure and the integration of commonsense knowledge. The project aims to connect concepts and contexts by combining qualia structure with syntax-semantics models, expanding the application of machine solvers in intelligent tutoring systems.&lt;/p>
+&lt;h2 id="research-background">Research Background&lt;/h2>
+&lt;p>Traditional neural solvers use end-to-end models to convert problem text into mathematical expressions, but lack the ability to extract quantitative relationships in complex scenarios. This project proposes a qualia role-based entity-dependency graph (EDG) to represent and extract quantity relations for solving Chinese algebraic word problems.&lt;/p>
+&lt;h2 id="core-innovations">Core Innovations&lt;/h2>
+&lt;h3 id="1-qualia-structure-integration">1. Qualia Structure Integration&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Qualia Role Theory&lt;/strong>: Applies qualia structure (formal, constitutive, telic, agentive roles) to analyze mathematical objects.&lt;/li>
+&lt;li>&lt;strong>Concept-Context Connection&lt;/strong>: Establishes semantic links between mathematical concepts and real-world contexts.&lt;/li>
+&lt;li>&lt;strong>Commonsense Knowledge Fusion&lt;/strong>: Effectively integrates commonsense knowledge into the problem-solving process.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-entity-dependency-graph-edg">2. Entity-Dependency Graph (EDG)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Graph Structure Representation&lt;/strong>: Uses graph structures to represent dependency relations among mathematical objects.&lt;/li>
+&lt;li>&lt;strong>Quantity Relation Extraction&lt;/strong>: Extracts implicit quantity relations from qualia roles.&lt;/li>
+&lt;li>&lt;strong>Algorithm Design&lt;/strong>: Develops dedicated algorithms for EDG generation and quantity relation extraction.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-chinese-language-processing">3. Chinese Language Processing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Chinese-Specific Features&lt;/strong>: Addresses unique linguistic features of Chinese algebraic word problems.&lt;/li>
+&lt;li>&lt;strong>Language Understanding&lt;/strong>: Enhances understanding of Chinese mathematical expressions.&lt;/li>
+&lt;li>&lt;strong>Cultural Adaptation&lt;/strong>: Considers the cultural context of Chinese mathematics education.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-architecture">Technical Architecture&lt;/h2>
+&lt;h3 id="system-components">System Components&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Problem Text Analysis Module&lt;/strong>
+&lt;ul>
+&lt;li>Natural Language Processing&lt;/li>
+&lt;li>Entity Recognition and Classification&lt;/li>
+&lt;li>Semantic Role Labeling&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Qualia Structure Analysis Module&lt;/strong>
+&lt;ul>
+&lt;li>Qualia Role Identification&lt;/li>
+&lt;li>Conceptual Relationship Modeling&lt;/li>
+&lt;li>Commonsense Reasoning&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>EDG Construction Module&lt;/strong>
+&lt;ul>
+&lt;li>Entity Dependency Modeling&lt;/li>
+&lt;li>Graph Generation&lt;/li>
+&lt;li>Quantity Relation Extraction&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Solver Engine&lt;/strong>
+&lt;ul>
+&lt;li>Mathematical Expression Generation&lt;/li>
+&lt;li>Equation Solving&lt;/li>
+&lt;li>Result Verification&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="research-outcomes">Research Outcomes&lt;/h2>
+&lt;h3 id="academic-contributions">Academic Contributions&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>SCI Journal Paper&lt;/strong>: Published in Computer Modeling in Engineering and Sciences&lt;/li>
+&lt;li>&lt;strong>Conference Papers&lt;/strong>: Multiple EI-indexed conference papers&lt;/li>
+&lt;li>&lt;strong>Algorithmic Innovation&lt;/strong>: Proposed a novel framework for algebraic word problem solving&lt;/li>
+&lt;/ul>
+&lt;h3 id="technical-breakthroughs">Technical Breakthroughs&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Accuracy Improvement&lt;/strong>: Significantly improved solution accuracy compared to traditional methods&lt;/li>
+&lt;li>&lt;strong>Interpretability Enhancement&lt;/strong>: Provided better interpretability of the solving process&lt;/li>
+&lt;li>&lt;strong>Application Expansion&lt;/strong>: Broadened the applicability of automatic solvers&lt;/li>
+&lt;/ul>
+&lt;h2 id="application-prospects">Application Prospects&lt;/h2>
+&lt;h3 id="intelligent-tutoring-systems">Intelligent Tutoring Systems&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Personalized Learning&lt;/strong>: Provides personalized math problems based on student profiles&lt;/li>
+&lt;li>&lt;strong>Error Diagnosis&lt;/strong>: Intelligently identifies student errors and offers targeted guidance&lt;/li>
+&lt;li>&lt;strong>Learning Path Planning&lt;/strong>: Plans optimal learning paths based on student abilities&lt;/li>
+&lt;/ul>
+&lt;h3 id="educational-technology-platforms">Educational Technology Platforms&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Automatic Problem Generation&lt;/strong>: Intelligently generates math word problems of varying difficulty&lt;/li>
+&lt;li>&lt;strong>Intelligent Grading&lt;/strong>: Automatically evaluates the correctness of student answers&lt;/li>
+&lt;li>&lt;strong>Learning Analytics&lt;/strong>: Deeply analyzes student learning behaviors and cognitive processes&lt;/li>
+&lt;/ul>
+&lt;h2 id="project-impact">Project Impact&lt;/h2>
+&lt;p>The research outcomes of this project have made significant academic contributions and provided technical support for practical educational applications. By integrating qualia structure theory with modern AI technology, the project opens new directions for the development of intelligent tutoring systems.&lt;/p>
+&lt;h2 id="future-development">Future Development&lt;/h2>
+&lt;h3 id="technical-expansion">Technical Expansion&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Multilingual Support&lt;/strong>: Extend to math word problems in other languages&lt;/li>
+&lt;li>&lt;strong>Complex Problem Handling&lt;/strong>: Address more complex types of math problems&lt;/li>
+&lt;li>&lt;strong>Real-Time Interaction&lt;/strong>: Develop real-time human-computer interactive solvers&lt;/li>
+&lt;/ul>
+&lt;h3 id="application-extension">Application Extension&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Interdisciplinary Applications&lt;/strong>: Extend methods to other subjects such as physics and chemistry&lt;/li>
+&lt;li>&lt;strong>Industrial Applications&lt;/strong>: Promote the industrialization of the technology&lt;/li>
+&lt;li>&lt;strong>International Collaboration&lt;/strong>: Conduct international collaborative research projects&lt;/li>
+&lt;/ul>
+&lt;p>This project represents an important exploration in the field of intelligent education, laying a solid theoretical and technical foundation for the future development of educational technology.&lt;/p></description></item><item><title>Prompt-based missing entity recovery for solving arithmetic word problems</title><link>/publication/prompt-based-missing-entity/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/publication/prompt-based-missing-entity/</guid><description>&lt;p>This paper addresses the challenge of missing entity recovery in arithmetic word problems using prompt-based techniques. The approach leverages natural language prompts to guide the system in identifying and recovering missing mathematical entities that are crucial for problem solving.&lt;/p>
 &lt;h2 id="key-contributions">Key Contributions&lt;/h2>
 &lt;ol>
 &lt;li>&lt;strong>Prompt-based Framework&lt;/strong>: Novel use of prompts for entity recovery in mathematical problem solving&lt;/li>
