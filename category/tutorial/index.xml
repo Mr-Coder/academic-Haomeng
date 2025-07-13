@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial | 孟皓的学术主页</title><link>/category/tutorial/</link><atom:link href="/category/tutorial/index.xml" rel="self" type="application/rss+xml"/><description>Tutorial</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Tutorial</title><link>/category/tutorial/</link></image><item><title>Getting Started with Academic Website</title><link>/post/getting-started/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/post/getting-started/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Welcome to your new academic website! This guide will help you get started with customizing your site to showcase your research, publications, and professional achievements.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;h3 id="1-responsive-design">1. &lt;strong>Responsive Design&lt;/strong>&lt;/h3>
+&lt;p>Your website is fully responsive and works perfectly on all devices - from mobile phones to desktop computers.&lt;/p>
+&lt;h3 id="2-academic-focus">2. &lt;strong>Academic Focus&lt;/strong>&lt;/h3>
+&lt;p>The Academic theme is specifically designed for researchers, academics, and professionals who want to showcase their work online.&lt;/p>
+&lt;h3 id="3-easy-content-management">3. &lt;strong>Easy Content Management&lt;/strong>&lt;/h3>
+&lt;p>Write your content in Markdown format, which is simple to learn and powerful for academic writing.&lt;/p>
+&lt;h2 id="getting-started">Getting Started&lt;/h2>
+&lt;h3 id="customizing-your-profile">Customizing Your Profile&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Update Personal Information&lt;/strong>: Edit &lt;code>content/authors/admin/_index.md&lt;/code> to add your details&lt;/li>
+&lt;li>&lt;strong>Add Your Photo&lt;/strong>: Place your photo in &lt;code>content/authors/admin/avatar.jpg&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Update Contact Information&lt;/strong>: Modify the contact details in &lt;code>config/_default/params.toml&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h3 id="adding-content">Adding Content&lt;/h3>
+&lt;h4 id="publications">Publications&lt;/h4>
+&lt;p>Create new publications by adding files to &lt;code>content/publication/&lt;/code>:&lt;/p>
+&lt;pre>&lt;code class="language-markdown">---
+title: &amp;quot;Your Publication Title&amp;quot;
+authors:
+- admin
+date: &amp;quot;2024-01-01T00:00:00Z&amp;quot;
+doi: &amp;quot;&amp;quot;
+publication_types: [&amp;quot;2&amp;quot;]
+publication: &amp;quot;Journal Name&amp;quot;
+publication_short: &amp;quot;&amp;quot;
+abstract: &amp;quot;Your abstract here...&amp;quot;
+---
+&lt;/code>&lt;/pre>
+&lt;h4 id="blog-posts">Blog Posts&lt;/h4>
+&lt;p>Add blog posts in &lt;code>content/post/&lt;/code>:&lt;/p>
+&lt;pre>&lt;code class="language-markdown">---
+title: &amp;quot;Your Blog Post Title&amp;quot;
+authors:
+- admin
+tags:
+- Research
+- AI
+categories:
+- Blog
+date: &amp;quot;2024-01-01T00:00:00Z&amp;quot;
+---
+&lt;/code>&lt;/pre>
+&lt;h4 id="projects">Projects&lt;/h4>
+&lt;p>Showcase your projects in &lt;code>content/project/&lt;/code>:&lt;/p>
+&lt;pre>&lt;code class="language-markdown">---
+title: &amp;quot;Your Project&amp;quot;
+summary: &amp;quot;Project description&amp;quot;
+tags:
+- Deep Learning
+- Computer Vision
+categories:
+- Project
+date: &amp;quot;2024-01-01T00:00:00Z&amp;quot;
+external_link: &amp;quot;&amp;quot;
+image:
+caption: &amp;quot;Project Image&amp;quot;
+focal_point: Smart
+---
+&lt;/code>&lt;/pre>
+&lt;h2 id="advanced-customization">Advanced Customization&lt;/h2>
+&lt;h3 id="custom-css">Custom CSS&lt;/h3>
+&lt;p>You can add custom styles by editing &lt;code>assets/css/custom.css&lt;/code>. The file is already set up with some basic improvements.&lt;/p>
+&lt;h3 id="theme-customization">Theme Customization&lt;/h3>
+&lt;ul>
+&lt;li>Change themes in &lt;code>config/_default/params.toml&lt;/code>&lt;/li>
+&lt;li>Available themes: minimal, classic, dark, forest, ocean, and more&lt;/li>
+&lt;/ul>
+&lt;h3 id="adding-widgets">Adding Widgets&lt;/h3>
+&lt;p>The homepage is built using widgets. You can:&lt;/p>
+&lt;ul>
+&lt;li>Enable/disable widgets in their respective &lt;code>.md&lt;/code> files&lt;/li>
+&lt;li>Reorder widgets by changing their &lt;code>weight&lt;/code> parameter&lt;/li>
+&lt;li>Add new widgets by creating new files in &lt;code>content/home/&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="deployment">Deployment&lt;/h2>
+&lt;h3 id="local-development">Local Development&lt;/h3>
+&lt;pre>&lt;code class="language-bash">hugo server --buildDrafts --buildFuture
+&lt;/code>&lt;/pre>
+&lt;h3 id="deployment-options">Deployment Options&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Netlify&lt;/strong>: Connect your GitHub repository for automatic deployment&lt;/li>
+&lt;li>&lt;strong>GitHub Pages&lt;/strong>: Use GitHub Actions for automated deployment&lt;/li>
+&lt;li>&lt;strong>Vercel&lt;/strong>: Another excellent option for static site hosting&lt;/li>
+&lt;/ol>
+&lt;h2 id="tips-for-success">Tips for Success&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Keep Content Updated&lt;/strong>: Regularly update your publications and projects&lt;/li>
+&lt;li>&lt;strong>Use High-Quality Images&lt;/strong>: Ensure all images are high resolution and properly optimized&lt;/li>
+&lt;li>&lt;strong>Write Clear Descriptions&lt;/strong>: Make your research accessible to a broader audience&lt;/li>
+&lt;li>&lt;strong>Include Contact Information&lt;/strong>: Make it easy for people to reach you&lt;/li>
+&lt;li>&lt;strong>Optimize for SEO&lt;/strong>: Use descriptive titles and meta descriptions&lt;/li>
+&lt;/ol>
+&lt;h2 id="support">Support&lt;/h2>
+&lt;p>If you need help with your academic website:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Documentation&lt;/strong>:
+&lt;a href="https://sourcethemes.com/academic/docs/" target="_blank" rel="noopener">Academic Theme Docs&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Community&lt;/strong>:
+&lt;a href="https://discourse.gohugo.io/" target="_blank" rel="noopener">Hugo Community&lt;/a>&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong>:
+&lt;a href="https://github.com/gcushen/hugo-academic" target="_blank" rel="noopener">Academic Theme Repository&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Your academic website is now ready to showcase your research and professional achievements. Remember to keep it updated with your latest work and publications. Good luck with your academic journey!&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>This post was created as an example to help you get started with your academic website. Feel free to modify or delete it as needed.&lt;/em>&lt;/p></description></item></channel></rss>

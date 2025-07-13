@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Educational Technology | 孟皓的学术主页</title><link>/tag/educational-technology/</link><atom:link href="/tag/educational-technology/index.xml" rel="self" type="application/rss+xml"/><description>Educational Technology</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Educational Technology</title><link>/tag/educational-technology/</link></image><item><title>Qualia role-based quantity relation extraction for solving algebra story problems</title><link>/publication/qualia-role-quantity-relation/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>/publication/qualia-role-quantity-relation/</guid><description>&lt;p>This paper presents a novel approach to solving algebra story problems in Chinese using a qualia role-based entity-dependency graph (EDG). The method addresses the limitations of traditional neural solvers by explicitly modeling quantity relations hidden in the qualia roles of mathematical objects.&lt;/p>
+&lt;h2 id="key-contributions">Key Contributions&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Entity-Dependency Graph (EDG)&lt;/strong>: A novel representation that captures quantity relations in algebra story problems&lt;/li>
+&lt;li>&lt;strong>Qualia Role Integration&lt;/strong>: Leverages qualia structure to understand implicit relationships between mathematical entities&lt;/li>
+&lt;li>&lt;strong>Algorithm Design&lt;/strong>: Develops specific algorithms for EDG generation and quantity relation extraction&lt;/li>
+&lt;li>&lt;strong>Chinese Language Support&lt;/strong>: Addresses the unique challenges of solving algebra problems stated in Chinese&lt;/li>
+&lt;/ol>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;p>The proposed approach consists of several key components:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Problem Text Analysis&lt;/strong>: Natural language processing to understand the problem statement&lt;/li>
+&lt;li>&lt;strong>Entity Extraction&lt;/strong>: Identification of mathematical objects and their properties&lt;/li>
+&lt;li>&lt;strong>Qualia Role Assignment&lt;/strong>: Mapping entities to their qualia roles (formal, constitutive, telic, agentive)&lt;/li>
+&lt;li>&lt;strong>EDG Construction&lt;/strong>: Building the entity-dependency graph based on qualia relationships&lt;/li>
+&lt;li>&lt;strong>Quantity Relation Extraction&lt;/strong>: Deriving mathematical relationships from the EDG&lt;/li>
+&lt;li>&lt;strong>Solution Generation&lt;/strong>: Converting extracted relations into mathematical expressions&lt;/li>
+&lt;/ul>
+&lt;h2 id="experimental-results">Experimental Results&lt;/h2>
+&lt;p>The experimental evaluation demonstrates the effectiveness of the proposed method in solving Chinese algebra story problems, showing improvements over traditional end-to-end neural approaches in terms of accuracy and interpretability.&lt;/p>
+&lt;h2 id="impact">Impact&lt;/h2>
+&lt;p>This work contributes to the field of educational technology by providing a more interpretable and effective approach to automated math problem solving, with potential applications in intelligent tutoring systems and educational AI.&lt;/p></description></item><item><title>Prompt-based missing entity recovery for solving arithmetic word problems</title><link>/publication/prompt-based-missing-entity/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/publication/prompt-based-missing-entity/</guid><description>&lt;p>This paper addresses the challenge of missing entity recovery in arithmetic word problems using prompt-based techniques. The approach leverages natural language prompts to guide the system in identifying and recovering missing mathematical entities that are crucial for problem solving.&lt;/p>
+&lt;h2 id="key-contributions">Key Contributions&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Prompt-based Framework&lt;/strong>: Novel use of prompts for entity recovery in mathematical problem solving&lt;/li>
+&lt;li>&lt;strong>Missing Entity Detection&lt;/strong>: Systematic approach to identify missing entities in word problems&lt;/li>
+&lt;li>&lt;strong>Recovery Strategies&lt;/strong>: Effective methods for reconstructing missing information&lt;/li>
+&lt;li>&lt;strong>Performance Improvement&lt;/strong>: Enhanced accuracy in arithmetic word problem solving&lt;/li>
+&lt;/ol>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;p>The proposed approach includes:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Entity Analysis&lt;/strong>: Comprehensive analysis of entities in word problems&lt;/li>
+&lt;li>&lt;strong>Missing Entity Identification&lt;/strong>: Detection of implicit or missing entities&lt;/li>
+&lt;li>&lt;strong>Prompt Design&lt;/strong>: Crafting effective prompts for entity recovery&lt;/li>
+&lt;li>&lt;strong>Recovery Process&lt;/strong>: Systematic recovery of missing entities&lt;/li>
+&lt;li>&lt;strong>Integration&lt;/strong>: Seamless integration with existing problem solving systems&lt;/li>
+&lt;/ul>
+&lt;p>This work contributes to the advancement of automated mathematical problem solving by addressing a key challenge in natural language understanding for educational applications.&lt;/p></description></item><item><title>A bi-channel math word problem solver with understanding and reasoning</title><link>/publication/bi-channel-solver/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/publication/bi-channel-solver/</guid><description>&lt;p>This paper introduces a novel bi-channel architecture for solving mathematical word problems that separates understanding and reasoning processes. The system leverages two distinct channels to handle different aspects of problem solving, leading to improved performance and interpretability.&lt;/p>
+&lt;h2 id="key-contributions">Key Contributions&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Bi-channel Architecture&lt;/strong>: Novel dual-channel approach for math problem solving&lt;/li>
+&lt;li>&lt;strong>Understanding Channel&lt;/strong>: Dedicated channel for problem comprehension&lt;/li>
+&lt;li>&lt;strong>Reasoning Channel&lt;/strong>: Specialized channel for mathematical reasoning&lt;/li>
+&lt;li>&lt;strong>Integration Strategy&lt;/strong>: Effective combination of understanding and reasoning outputs&lt;/li>
+&lt;li>&lt;strong>Performance Enhancement&lt;/strong>: Improved accuracy and interpretability&lt;/li>
+&lt;/ol>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;p>The proposed system consists of:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Understanding Channel&lt;/strong>: Processes natural language to extract mathematical concepts&lt;/li>
+&lt;li>&lt;strong>Reasoning Channel&lt;/strong>: Performs mathematical reasoning and computation&lt;/li>
+&lt;li>&lt;strong>Feature Extraction&lt;/strong>: Comprehensive feature extraction from problem text&lt;/li>
+&lt;li>&lt;strong>Channel Integration&lt;/strong>: Fusion of understanding and reasoning outputs&lt;/li>
+&lt;li>&lt;strong>Solution Generation&lt;/strong>: Final solution synthesis from both channels&lt;/li>
+&lt;/ul>
+&lt;h2 id="experimental-results">Experimental Results&lt;/h2>
+&lt;p>The bi-channel approach demonstrates superior performance compared to single-channel baselines, showing the effectiveness of separating understanding and reasoning processes in mathematical problem solving.&lt;/p>
+&lt;p>This work contributes to the field of educational AI by providing a more structured and interpretable approach to automated mathematical problem solving.&lt;/p></description></item><item><title>The context-oriented system based on ELECTRA for solving math word problem</title><link>/publication/context-oriented-electra/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/publication/context-oriented-electra/</guid><description>&lt;p>This paper introduces a context-oriented system that utilizes ELECTRA, a pre-trained language model, to enhance the understanding and solving of mathematical word problems. The system focuses on capturing contextual information to improve problem comprehension and solution accuracy.&lt;/p>
+&lt;h2 id="key-contributions">Key Contributions&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>ELECTRA Integration&lt;/strong>: Effective use of ELECTRA for mathematical problem understanding&lt;/li>
+&lt;li>&lt;strong>Context-Oriented Approach&lt;/strong>: Emphasis on contextual information for better problem comprehension&lt;/li>
+&lt;li>&lt;strong>System Architecture&lt;/strong>: Comprehensive system design for math word problem solving&lt;/li>
+&lt;li>&lt;strong>Performance Evaluation&lt;/strong>: Thorough evaluation of the proposed approach&lt;/li>
+&lt;/ol>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;p>The proposed system includes:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Context Analysis&lt;/strong>: Deep understanding of problem context using ELECTRA&lt;/li>
+&lt;li>&lt;strong>Semantic Processing&lt;/strong>: Enhanced semantic understanding of mathematical concepts&lt;/li>
+&lt;li>&lt;strong>Problem Decomposition&lt;/strong>: Breaking down complex problems into manageable components&lt;/li>
+&lt;li>&lt;strong>Solution Generation&lt;/strong>: Systematic approach to generating mathematical solutions&lt;/li>
+&lt;li>&lt;strong>Evaluation Framework&lt;/strong>: Comprehensive evaluation of system performance&lt;/li>
+&lt;/ul>
+&lt;p>This work demonstrates the effectiveness of transformer-based language models in educational applications, particularly in the domain of automated mathematical problem solving.&lt;/p></description></item></channel></rss>

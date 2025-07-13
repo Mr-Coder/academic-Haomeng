@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arithmetic Word Problems | 孟皓的学术主页</title><link>/tag/arithmetic-word-problems/</link><atom:link href="/tag/arithmetic-word-problems/index.xml" rel="self" type="application/rss+xml"/><description>Arithmetic Word Problems</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Arithmetic Word Problems</title><link>/tag/arithmetic-word-problems/</link></image><item><title>Prompt-based missing entity recovery for solving arithmetic word problems</title><link>/publication/prompt-based-missing-entity/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/publication/prompt-based-missing-entity/</guid><description>&lt;p>This paper addresses the challenge of missing entity recovery in arithmetic word problems using prompt-based techniques. The approach leverages natural language prompts to guide the system in identifying and recovering missing mathematical entities that are crucial for problem solving.&lt;/p>
+&lt;h2 id="key-contributions">Key Contributions&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Prompt-based Framework&lt;/strong>: Novel use of prompts for entity recovery in mathematical problem solving&lt;/li>
+&lt;li>&lt;strong>Missing Entity Detection&lt;/strong>: Systematic approach to identify missing entities in word problems&lt;/li>
+&lt;li>&lt;strong>Recovery Strategies&lt;/strong>: Effective methods for reconstructing missing information&lt;/li>
+&lt;li>&lt;strong>Performance Improvement&lt;/strong>: Enhanced accuracy in arithmetic word problem solving&lt;/li>
+&lt;/ol>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;p>The proposed approach includes:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Entity Analysis&lt;/strong>: Comprehensive analysis of entities in word problems&lt;/li>
+&lt;li>&lt;strong>Missing Entity Identification&lt;/strong>: Detection of implicit or missing entities&lt;/li>
+&lt;li>&lt;strong>Prompt Design&lt;/strong>: Crafting effective prompts for entity recovery&lt;/li>
+&lt;li>&lt;strong>Recovery Process&lt;/strong>: Systematic recovery of missing entities&lt;/li>
+&lt;li>&lt;strong>Integration&lt;/strong>: Seamless integration with existing problem solving systems&lt;/li>
+&lt;/ul>
+&lt;p>This work contributes to the advancement of automated mathematical problem solving by addressing a key challenge in natural language understanding for educational applications.&lt;/p></description></item></channel></rss>

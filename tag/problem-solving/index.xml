@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Problem Solving | 孟皓的学术主页</title><link>/tag/problem-solving/</link><atom:link href="/tag/problem-solving/index.xml" rel="self" type="application/rss+xml"/><description>Problem Solving</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Problem Solving</title><link>/tag/problem-solving/</link></image><item><title>A bi-channel math word problem solver with understanding and reasoning</title><link>/publication/bi-channel-solver/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>/publication/bi-channel-solver/</guid><description>&lt;p>This paper introduces a novel bi-channel architecture for solving mathematical word problems that separates understanding and reasoning processes. The system leverages two distinct channels to handle different aspects of problem solving, leading to improved performance and interpretability.&lt;/p>
+&lt;h2 id="key-contributions">Key Contributions&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Bi-channel Architecture&lt;/strong>: Novel dual-channel approach for math problem solving&lt;/li>
+&lt;li>&lt;strong>Understanding Channel&lt;/strong>: Dedicated channel for problem comprehension&lt;/li>
+&lt;li>&lt;strong>Reasoning Channel&lt;/strong>: Specialized channel for mathematical reasoning&lt;/li>
+&lt;li>&lt;strong>Integration Strategy&lt;/strong>: Effective combination of understanding and reasoning outputs&lt;/li>
+&lt;li>&lt;strong>Performance Enhancement&lt;/strong>: Improved accuracy and interpretability&lt;/li>
+&lt;/ol>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;p>The proposed system consists of:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Understanding Channel&lt;/strong>: Processes natural language to extract mathematical concepts&lt;/li>
+&lt;li>&lt;strong>Reasoning Channel&lt;/strong>: Performs mathematical reasoning and computation&lt;/li>
+&lt;li>&lt;strong>Feature Extraction&lt;/strong>: Comprehensive feature extraction from problem text&lt;/li>
+&lt;li>&lt;strong>Channel Integration&lt;/strong>: Fusion of understanding and reasoning outputs&lt;/li>
+&lt;li>&lt;strong>Solution Generation&lt;/strong>: Final solution synthesis from both channels&lt;/li>
+&lt;/ul>
+&lt;h2 id="experimental-results">Experimental Results&lt;/h2>
+&lt;p>The bi-channel approach demonstrates superior performance compared to single-channel baselines, showing the effectiveness of separating understanding and reasoning processes in mathematical problem solving.&lt;/p>
+&lt;p>This work contributes to the field of educational AI by providing a more structured and interpretable approach to automated mathematical problem solving.&lt;/p></description></item></channel></rss>

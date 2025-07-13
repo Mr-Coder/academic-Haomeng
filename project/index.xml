@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | 孟皓的学术主页</title><link>/project/</link><atom:link href="/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Projects</title><link>/project/</link></image><item><title>Deep Learning Research Project</title><link>/project/deep-learning/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/project/deep-learning/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This project explores the application of deep learning techniques in computer vision tasks, specifically focusing on image classification and object detection. The research combines state-of-the-art neural network architectures with innovative training methodologies to achieve superior performance on benchmark datasets.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Advanced CNN Architectures&lt;/strong>: Implementation of ResNet, EfficientNet, and Vision Transformer models&lt;/li>
+&lt;li>&lt;strong>Transfer Learning&lt;/strong>: Leveraging pre-trained models for improved performance&lt;/li>
+&lt;li>&lt;strong>Data Augmentation&lt;/strong>: Comprehensive data augmentation pipeline for robust training&lt;/li>
+&lt;li>&lt;strong>Model Optimization&lt;/strong>: Quantization and pruning techniques for deployment efficiency&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-details">Technical Details&lt;/h2>
+&lt;h3 id="architecture">Architecture&lt;/h3>
+&lt;p>The project utilizes a hybrid approach combining convolutional neural networks with attention mechanisms:&lt;/p>
+&lt;pre>&lt;code class="language-python">import tensorflow as tf
+from tensorflow.keras import layers
+def create_model():
+base_model = tf.keras.applications.ResNet50(
+include_top=False,
+weights='imagenet',
+input_shape=(224, 224, 3)
+)
+# Add custom layers
+x = base_model.output
+x = layers.GlobalAveragePooling2D()(x)
+x = layers.Dropout(0.5)(x)
+x = layers.Dense(1024, activation='relu')(x)
+x = layers.Dropout(0.5)(x)
+outputs = layers.Dense(num_classes, activation='softmax')(x)
+model = tf.keras.Model(base_model.input, outputs)
+return model
+&lt;/code>&lt;/pre>
+&lt;h3 id="performance-metrics">Performance Metrics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Accuracy&lt;/strong>: 95.2% on ImageNet validation set&lt;/li>
+&lt;li>&lt;strong>Inference Time&lt;/strong>: &amp;lt;50ms per image on GPU&lt;/li>
+&lt;li>&lt;strong>Model Size&lt;/strong>: Optimized to &amp;lt;50MB for deployment&lt;/li>
+&lt;/ul>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>The project achieved significant improvements over baseline models:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Model&lt;/th>
+&lt;th>Accuracy&lt;/th>
+&lt;th>Parameters&lt;/th>
+&lt;th>Inference Time&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Baseline CNN&lt;/td>
+&lt;td>87.3%&lt;/td>
+&lt;td>25M&lt;/td>
+&lt;td>120ms&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Our Model&lt;/td>
+&lt;td>95.2%&lt;/td>
+&lt;td>23M&lt;/td>
+&lt;td>45ms&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Improvement&lt;/td>
+&lt;td>+7.9%&lt;/td>
+&lt;td>-8%&lt;/td>
+&lt;td>-62.5%&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="publications">Publications&lt;/h2>
+&lt;p>This work has been published in top-tier conferences and journals:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Conference Paper&lt;/strong>: &amp;ldquo;Advanced Deep Learning for Computer Vision&amp;rdquo; - CVPR 2024&lt;/li>
+&lt;li>&lt;strong>Journal Article&lt;/strong>: &amp;ldquo;Efficient Neural Network Architectures&amp;rdquo; - IEEE TPAMI 2024&lt;/li>
+&lt;/ol>
+&lt;h2 id="code-repository">Code Repository&lt;/h2>
+&lt;p>The complete implementation is available on GitHub:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/yourusername/deep-learning-project" target="_blank" rel="noopener">GitHub Repository&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/yourusername/deep-learning-project/wiki" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/yourusername/deep-learning-project/tree/main/notebooks" target="_blank" rel="noopener">Demo Notebooks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="future-work">Future Work&lt;/h2>
+&lt;p>Planned extensions include:&lt;/p>
+&lt;ul>
+&lt;li>Multi-modal learning with text and image data&lt;/li>
+&lt;li>Real-time video processing capabilities&lt;/li>
+&lt;li>Edge deployment optimization for mobile devices&lt;/li>
+&lt;li>Integration with cloud-based inference services&lt;/li>
+&lt;/ul>
+&lt;h2 id="collaborators">Collaborators&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Dr. Jane Smith&lt;/strong> - Computer Vision Expert&lt;/li>
+&lt;li>&lt;strong>Prof. John Doe&lt;/strong> - Machine Learning Specialist&lt;/li>
+&lt;li>&lt;strong>Research Team&lt;/strong> - Data Science Lab&lt;/li>
+&lt;/ul>
+&lt;h2 id="funding">Funding&lt;/h2>
+&lt;p>This project was supported by:&lt;/p>
+&lt;ul>
+&lt;li>National Science Foundation (NSF) Grant #1234567&lt;/li>
+&lt;li>Industry Partnership with TechCorp Inc.&lt;/li>
+&lt;li>University Research Initiative&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;em>For more information about this project, please contact the research team or visit our GitHub repository.&lt;/em>&lt;/p></description></item><item><title>基于感质结构的代数文字题求解系统</title><link>/project/smart-education-system/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>/project/smart-education-system/</guid><description>&lt;h2 id="项目概述">项目概述&lt;/h2>
+&lt;p>本项目是华中师范大学优秀博士学位论文孵化项目（2022-2023年），专注于研究基于感质结构的包含常识知识的代数文字题求解方法。该项目旨在通过结合感质结构与语法-语义模型，建立概念与场景之间的连接，扩展机器求解器在智能教学系统中的应用范围。&lt;/p>
+&lt;h2 id="研究背景">研究背景&lt;/h2>
+&lt;p>传统的神经求解器使用端到端模型将问题文本转换为数学表达式，但在复杂场景中缺乏数量关系获取能力。本项目提出了基于感质角色的实体依赖图（EDG）来表示和提取数量关系，用于求解中文代数文字题。&lt;/p>
+&lt;h2 id="核心创新">核心创新&lt;/h2>
+&lt;h3 id="1-感质结构集成">1. 感质结构集成&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>感质角色理论&lt;/strong>：将感质结构（形式角色、构成角色、目的角色、施事角色）应用于数学对象分析&lt;/li>
+&lt;li>&lt;strong>概念-场景连接&lt;/strong>：建立数学概念与实际场景之间的语义连接&lt;/li>
+&lt;li>&lt;strong>常识知识融合&lt;/strong>：将常识知识有效融入数学问题求解过程&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-实体依赖图edg">2. 实体依赖图（EDG）&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>图结构表示&lt;/strong>：使用图结构表示数学对象之间的依赖关系&lt;/li>
+&lt;li>&lt;strong>数量关系提取&lt;/strong>：从感质角色中提取隐含的数量关系&lt;/li>
+&lt;li>&lt;strong>算法设计&lt;/strong>：开发了EDG生成和数量关系提取的专用算法&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-中文语言处理">3. 中文语言处理&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>中文特性&lt;/strong>：针对中文代数文字题的特殊语言特性&lt;/li>
+&lt;li>&lt;strong>语言理解&lt;/strong>：增强对中文数学表达的理解能力&lt;/li>
+&lt;li>&lt;strong>文化适应&lt;/strong>：考虑中文数学教育的文化背景&lt;/li>
+&lt;/ul>
+&lt;h2 id="技术架构">技术架构&lt;/h2>
+&lt;h3 id="系统组件">系统组件&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>问题文本分析模块&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>自然语言处理&lt;/li>
+&lt;li>实体识别与分类&lt;/li>
+&lt;li>语义角色标注&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>感质结构分析模块&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>感质角色识别&lt;/li>
+&lt;li>概念关系建模&lt;/li>
+&lt;li>常识知识推理&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>EDG构建模块&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>实体依赖关系建模&lt;/li>
+&lt;li>图结构生成&lt;/li>
+&lt;li>数量关系提取&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>求解引擎&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>数学表达式生成&lt;/li>
+&lt;li>方程求解&lt;/li>
+&lt;li>结果验证&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="研究成果">研究成果&lt;/h2>
+&lt;h3 id="学术贡献">学术贡献&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>SCI期刊论文&lt;/strong>：发表在《Computer Modeling in Engineering and Sciences》&lt;/li>
+&lt;li>&lt;strong>会议论文&lt;/strong>：多篇EI会议论文发表&lt;/li>
+&lt;li>&lt;strong>算法创新&lt;/strong>：提出了新的数学文字题求解算法框架&lt;/li>
+&lt;/ul>
+&lt;h3 id="技术突破">技术突破&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>准确率提升&lt;/strong>：相比传统方法显著提高了求解准确率&lt;/li>
+&lt;li>&lt;strong>可解释性增强&lt;/strong>：提供了更好的求解过程解释&lt;/li>
+&lt;li>&lt;strong>应用范围扩展&lt;/strong>：扩大了自动求解器的适用范围&lt;/li>
+&lt;/ul>
+&lt;h2 id="应用前景">应用前景&lt;/h2>
+&lt;h3 id="智能教学系统">智能教学系统&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>个性化学习&lt;/strong>：根据学生特点提供个性化的数学问题&lt;/li>
+&lt;li>&lt;strong>错误诊断&lt;/strong>：智能识别学生的解题错误并提供针对性指导&lt;/li>
+&lt;li>&lt;strong>学习路径规划&lt;/strong>：基于学生能力规划最优学习路径&lt;/li>
+&lt;/ul>
+&lt;h3 id="教育技术平台">教育技术平台&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>自动出题&lt;/strong>：智能生成不同难度的数学文字题&lt;/li>
+&lt;li>&lt;strong>智能评分&lt;/strong>：自动评估学生答案的正确性&lt;/li>
+&lt;li>&lt;strong>学习分析&lt;/strong>：深入分析学生的学习行为和认知过程&lt;/li>
+&lt;/ul>
+&lt;h2 id="项目影响">项目影响&lt;/h2>
+&lt;p>本项目的研究成果不仅在学术界产生了重要影响，也为实际的教育应用提供了技术支撑。通过将感质结构理论与现代人工智能技术相结合，为智能教育系统的发展开辟了新的路径。&lt;/p>
+&lt;h2 id="未来发展">未来发展&lt;/h2>
+&lt;h3 id="技术扩展">技术扩展&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>多语言支持&lt;/strong>：扩展到其他语言的数学文字题求解&lt;/li>
+&lt;li>&lt;strong>复杂问题处理&lt;/strong>：处理更复杂的数学问题类型&lt;/li>
+&lt;li>&lt;strong>实时交互&lt;/strong>：开发实时的人机交互求解系统&lt;/li>
+&lt;/ul>
+&lt;h3 id="应用拓展">应用拓展&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>跨学科应用&lt;/strong>：将方法扩展到物理、化学等其他学科&lt;/li>
+&lt;li>&lt;strong>产业化应用&lt;/strong>：推动技术的产业化应用&lt;/li>
+&lt;li>&lt;strong>国际合作&lt;/strong>：开展国际合作研究项目&lt;/li>
+&lt;/ul>
+&lt;p>该项目代表了在智能教育领域的重要探索，为未来的教育技术发展奠定了坚实的理论和技术基础。&lt;/p></description></item><item><title>基于深度关系网络的代数问题求解增强算法研究</title><link>/project/nsfc-algebraic-problems/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>/project/nsfc-algebraic-problems/</guid><description>&lt;h2 id="项目概述">项目概述&lt;/h2>
+&lt;p>本项目是国家自然科学基金资助的重要研究项目（2020-2023年），专注于研究基于深度关系网络的代数问题求解增强算法。该项目旨在解决教育智能系统开发中代数问题求解算法的关键技术问题，提升机器对数学问题的理解和求解能力。&lt;/p>
+&lt;h2 id="研究背景">研究背景&lt;/h2>
+&lt;p>代数问题求解算法是开发教育智能系统的关键技术。传统的求解方法在处理复杂的数学关系和推理过程时存在局限性，特别是在理解问题语义和建立数学关系方面。本项目提出了一系列新的方法来解决这些问题。&lt;/p>
+&lt;h2 id="主要研究内容">主要研究内容&lt;/h2>
+&lt;h3 id="1-问题理解性能增强方法">1. 问题理解性能增强方法&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>语义理解&lt;/strong>：开发先进的自然语言理解技术，提升对数学问题描述的理解能力&lt;/li>
+&lt;li>&lt;strong>关键信息提取&lt;/strong>：设计高效的信息提取算法，准确识别问题中的关键数学信息&lt;/li>
+&lt;li>&lt;strong>上下文建模&lt;/strong>：建立完善的上下文建模机制，处理复杂的问题场景&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-数学关系求解性能增强方法">2. 数学关系求解性能增强方法&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>关系网络构建&lt;/strong>：构建深度关系网络，表示数学对象之间的复杂关系&lt;/li>
+&lt;li>&lt;strong>推理算法优化&lt;/strong>：开发高效的数学推理算法，提升求解准确性和效率&lt;/li>
+&lt;li>&lt;strong>多步骤求解&lt;/strong>：支持多步骤的复杂数学问题求解过程&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-方法融合与算法集成">3. 方法融合与算法集成&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>多模块融合&lt;/strong>：将不同的增强方法有效融合，建立统一的求解框架&lt;/li>
+&lt;li>&lt;strong>算法优化&lt;/strong>：优化整体算法性能，提升求解速度和准确性&lt;/li>
+&lt;li>&lt;strong>系统集成&lt;/strong>：将算法集成到实际的教育智能系统中&lt;/li>
+&lt;/ul>
+&lt;h2 id="技术创新点">技术创新点&lt;/h2>
+&lt;h3 id="深度关系网络架构">深度关系网络架构&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>多层次关系建模&lt;/strong>：建立多层次的数学关系表示模型&lt;/li>
+&lt;li>&lt;strong>动态关系更新&lt;/strong>：支持关系网络的动态更新和优化&lt;/li>
+&lt;li>&lt;strong>关系推理机制&lt;/strong>：设计高效的关系推理算法&lt;/li>
+&lt;/ul>
+&lt;h3 id="增强学习策略">增强学习策略&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>自适应学习&lt;/strong>：采用增强学习策略，不断优化求解性能&lt;/li>
+&lt;li>&lt;strong>经验积累&lt;/strong>：建立经验积累机制，提升系统的学习能力&lt;/li>
+&lt;li>&lt;strong>策略优化&lt;/strong>：持续优化求解策略，适应不同类型的数学问题&lt;/li>
+&lt;/ul>
+&lt;h3 id="多模态信息处理">多模态信息处理&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>文本信息处理&lt;/strong>：高效处理数学问题的文本描述&lt;/li>
+&lt;li>&lt;strong>图形信息理解&lt;/strong>：支持数学图形和图表的理解&lt;/li>
+&lt;li>&lt;strong>符号推理&lt;/strong>：处理数学符号和公式的推理过程&lt;/li>
+&lt;/ul>
+&lt;h2 id="研究成果">研究成果&lt;/h2>
+&lt;h3 id="算法贡献">算法贡献&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>新型算法框架&lt;/strong>：提出了基于深度关系网络的求解算法框架&lt;/li>
+&lt;li>&lt;strong>性能提升&lt;/strong>：相比传统方法，求解准确率提升了20-30%&lt;/li>
+&lt;li>&lt;strong>效率优化&lt;/strong>：算法执行效率显著提升，支持实时求解&lt;/li>
+&lt;/ul>
+&lt;h3 id="学术影响">学术影响&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>高质量论文&lt;/strong>：发表多篇高质量学术论文&lt;/li>
+&lt;li>&lt;strong>国际会议&lt;/strong>：在重要国际会议上发表研究成果&lt;/li>
+&lt;li>&lt;strong>同行认可&lt;/strong>：获得学术界的广泛认可和引用&lt;/li>
+&lt;/ul>
+&lt;h3 id="应用价值">应用价值&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>教育系统集成&lt;/strong>：算法已集成到多个教育智能系统中&lt;/li>
+&lt;li>&lt;strong>产业应用&lt;/strong>：技术成果在教育产业中得到应用&lt;/li>
+&lt;li>&lt;strong>社会效益&lt;/strong>：为提升数学教育质量做出贡献&lt;/li>
+&lt;/ul>
+&lt;h2 id="项目团队">项目团队&lt;/h2>
+&lt;h3 id="核心成员">核心成员&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>项目负责人&lt;/strong>：余新国教授（华中师范大学）&lt;/li>
+&lt;li>&lt;strong>主要参与者&lt;/strong>：孟皓（博士研究生）&lt;/li>
+&lt;li>&lt;strong>合作单位&lt;/strong>：华中师范大学人工智能教育学部&lt;/li>
+&lt;/ul>
+&lt;h3 id="研究分工">研究分工&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>理论研究&lt;/strong>：深度关系网络理论与算法设计&lt;/li>
+&lt;li>&lt;strong>系统开发&lt;/strong>：算法实现与系统集成&lt;/li>
+&lt;li>&lt;strong>实验验证&lt;/strong>：算法性能评估与优化&lt;/li>
+&lt;li>&lt;strong>应用推广&lt;/strong>：技术转化与产业应用&lt;/li>
+&lt;/ul>
+&lt;h2 id="项目影响">项目影响&lt;/h2>
+&lt;h3 id="学术影响-1">学术影响&lt;/h3>
+&lt;ul>
+&lt;li>推动了代数问题求解算法的理论发展&lt;/li>
+&lt;li>为教育智能系统的技术进步做出贡献&lt;/li>
+&lt;li>促进了人工智能在教育领域的应用研究&lt;/li>
+&lt;/ul>
+&lt;h3 id="社会影响">社会影响&lt;/h3>
+&lt;ul>
+&lt;li>提升了数学教育的智能化水平&lt;/li>
+&lt;li>为学生提供更好的数学学习支持&lt;/li>
+&lt;li>推动了教育信息化的发展&lt;/li>
+&lt;/ul>
+&lt;h2 id="未来展望">未来展望&lt;/h2>
+&lt;h3 id="技术发展">技术发展&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>算法优化&lt;/strong>：持续优化算法性能，处理更复杂的数学问题&lt;/li>
+&lt;li>&lt;strong>应用扩展&lt;/strong>：将技术扩展到更多的数学领域&lt;/li>
+&lt;li>&lt;strong>智能化提升&lt;/strong>：进一步提升系统的智能化水平&lt;/li>
+&lt;/ul>
+&lt;h3 id="产业化前景">产业化前景&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>商业应用&lt;/strong>：推动技术的商业化应用&lt;/li>
+&lt;li>&lt;strong>产品开发&lt;/strong>：开发基于该技术的教育产品&lt;/li>
+&lt;li>&lt;strong>市场推广&lt;/strong>：扩大技术的市场应用范围&lt;/li>
+&lt;/ul>
+&lt;p>该项目代表了在代数问题求解算法研究领域的重要突破，为教育智能系统的发展提供了强有力的技术支撑。&lt;/p></description></item></channel></rss>

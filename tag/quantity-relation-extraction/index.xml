@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quantity Relation Extraction | 孟皓的学术主页</title><link>/tag/quantity-relation-extraction/</link><atom:link href="/tag/quantity-relation-extraction/index.xml" rel="self" type="application/rss+xml"/><description>Quantity Relation Extraction</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Quantity Relation Extraction</title><link>/tag/quantity-relation-extraction/</link></image><item><title>Qualia role-based quantity relation extraction for solving algebra story problems</title><link>/publication/qualia-role-quantity-relation/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>/publication/qualia-role-quantity-relation/</guid><description>&lt;p>This paper presents a novel approach to solving algebra story problems in Chinese using a qualia role-based entity-dependency graph (EDG). The method addresses the limitations of traditional neural solvers by explicitly modeling quantity relations hidden in the qualia roles of mathematical objects.&lt;/p>
+&lt;h2 id="key-contributions">Key Contributions&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Entity-Dependency Graph (EDG)&lt;/strong>: A novel representation that captures quantity relations in algebra story problems&lt;/li>
+&lt;li>&lt;strong>Qualia Role Integration&lt;/strong>: Leverages qualia structure to understand implicit relationships between mathematical entities&lt;/li>
+&lt;li>&lt;strong>Algorithm Design&lt;/strong>: Develops specific algorithms for EDG generation and quantity relation extraction&lt;/li>
+&lt;li>&lt;strong>Chinese Language Support&lt;/strong>: Addresses the unique challenges of solving algebra problems stated in Chinese&lt;/li>
+&lt;/ol>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;p>The proposed approach consists of several key components:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Problem Text Analysis&lt;/strong>: Natural language processing to understand the problem statement&lt;/li>
+&lt;li>&lt;strong>Entity Extraction&lt;/strong>: Identification of mathematical objects and their properties&lt;/li>
+&lt;li>&lt;strong>Qualia Role Assignment&lt;/strong>: Mapping entities to their qualia roles (formal, constitutive, telic, agentive)&lt;/li>
+&lt;li>&lt;strong>EDG Construction&lt;/strong>: Building the entity-dependency graph based on qualia relationships&lt;/li>
+&lt;li>&lt;strong>Quantity Relation Extraction&lt;/strong>: Deriving mathematical relationships from the EDG&lt;/li>
+&lt;li>&lt;strong>Solution Generation&lt;/strong>: Converting extracted relations into mathematical expressions&lt;/li>
+&lt;/ul>
+&lt;h2 id="experimental-results">Experimental Results&lt;/h2>
+&lt;p>The experimental evaluation demonstrates the effectiveness of the proposed method in solving Chinese algebra story problems, showing improvements over traditional end-to-end neural approaches in terms of accuracy and interpretability.&lt;/p>
+&lt;h2 id="impact">Impact&lt;/h2>
+&lt;p>This work contributes to the field of educational technology by providing a more interpretable and effective approach to automated math problem solving, with potential applications in intelligent tutoring systems and educational AI.&lt;/p></description></item></channel></rss>

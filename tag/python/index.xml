@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python | 孟皓的学术主页</title><link>/tag/python/</link><atom:link href="/tag/python/index.xml" rel="self" type="application/rss+xml"/><description>Python</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Python</title><link>/tag/python/</link></image><item><title>Deep Learning Research Project</title><link>/project/deep-learning/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/project/deep-learning/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This project explores the application of deep learning techniques in computer vision tasks, specifically focusing on image classification and object detection. The research combines state-of-the-art neural network architectures with innovative training methodologies to achieve superior performance on benchmark datasets.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Advanced CNN Architectures&lt;/strong>: Implementation of ResNet, EfficientNet, and Vision Transformer models&lt;/li>
+&lt;li>&lt;strong>Transfer Learning&lt;/strong>: Leveraging pre-trained models for improved performance&lt;/li>
+&lt;li>&lt;strong>Data Augmentation&lt;/strong>: Comprehensive data augmentation pipeline for robust training&lt;/li>
+&lt;li>&lt;strong>Model Optimization&lt;/strong>: Quantization and pruning techniques for deployment efficiency&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-details">Technical Details&lt;/h2>
+&lt;h3 id="architecture">Architecture&lt;/h3>
+&lt;p>The project utilizes a hybrid approach combining convolutional neural networks with attention mechanisms:&lt;/p>
+&lt;pre>&lt;code class="language-python">import tensorflow as tf
+from tensorflow.keras import layers
+def create_model():
+base_model = tf.keras.applications.ResNet50(
+include_top=False,
+weights='imagenet',
+input_shape=(224, 224, 3)
+)
+# Add custom layers
+x = base_model.output
+x = layers.GlobalAveragePooling2D()(x)
+x = layers.Dropout(0.5)(x)
+x = layers.Dense(1024, activation='relu')(x)
+x = layers.Dropout(0.5)(x)
+outputs = layers.Dense(num_classes, activation='softmax')(x)
+model = tf.keras.Model(base_model.input, outputs)
+return model
+&lt;/code>&lt;/pre>
+&lt;h3 id="performance-metrics">Performance Metrics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Accuracy&lt;/strong>: 95.2% on ImageNet validation set&lt;/li>
+&lt;li>&lt;strong>Inference Time&lt;/strong>: &amp;lt;50ms per image on GPU&lt;/li>
+&lt;li>&lt;strong>Model Size&lt;/strong>: Optimized to &amp;lt;50MB for deployment&lt;/li>
+&lt;/ul>
+&lt;h2 id="results">Results&lt;/h2>
+&lt;p>The project achieved significant improvements over baseline models:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Model&lt;/th>
+&lt;th>Accuracy&lt;/th>
+&lt;th>Parameters&lt;/th>
+&lt;th>Inference Time&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Baseline CNN&lt;/td>
+&lt;td>87.3%&lt;/td>
+&lt;td>25M&lt;/td>
+&lt;td>120ms&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Our Model&lt;/td>
+&lt;td>95.2%&lt;/td>
+&lt;td>23M&lt;/td>
+&lt;td>45ms&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Improvement&lt;/td>
+&lt;td>+7.9%&lt;/td>
+&lt;td>-8%&lt;/td>
+&lt;td>-62.5%&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="publications">Publications&lt;/h2>
+&lt;p>This work has been published in top-tier conferences and journals:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Conference Paper&lt;/strong>: &amp;ldquo;Advanced Deep Learning for Computer Vision&amp;rdquo; - CVPR 2024&lt;/li>
+&lt;li>&lt;strong>Journal Article&lt;/strong>: &amp;ldquo;Efficient Neural Network Architectures&amp;rdquo; - IEEE TPAMI 2024&lt;/li>
+&lt;/ol>
+&lt;h2 id="code-repository">Code Repository&lt;/h2>
+&lt;p>The complete implementation is available on GitHub:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/yourusername/deep-learning-project" target="_blank" rel="noopener">GitHub Repository&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/yourusername/deep-learning-project/wiki" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/yourusername/deep-learning-project/tree/main/notebooks" target="_blank" rel="noopener">Demo Notebooks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="future-work">Future Work&lt;/h2>
+&lt;p>Planned extensions include:&lt;/p>
+&lt;ul>
+&lt;li>Multi-modal learning with text and image data&lt;/li>
+&lt;li>Real-time video processing capabilities&lt;/li>
+&lt;li>Edge deployment optimization for mobile devices&lt;/li>
+&lt;li>Integration with cloud-based inference services&lt;/li>
+&lt;/ul>
+&lt;h2 id="collaborators">Collaborators&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Dr. Jane Smith&lt;/strong> - Computer Vision Expert&lt;/li>
+&lt;li>&lt;strong>Prof. John Doe&lt;/strong> - Machine Learning Specialist&lt;/li>
+&lt;li>&lt;strong>Research Team&lt;/strong> - Data Science Lab&lt;/li>
+&lt;/ul>
+&lt;h2 id="funding">Funding&lt;/h2>
+&lt;p>This project was supported by:&lt;/p>
+&lt;ul>
+&lt;li>National Science Foundation (NSF) Grant #1234567&lt;/li>
+&lt;li>Industry Partnership with TechCorp Inc.&lt;/li>
+&lt;li>University Research Initiative&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;em>For more information about this project, please contact the research team or visit our GitHub repository.&lt;/em>&lt;/p></description></item></channel></rss>
