@@ -29,7 +29,7 @@ subtitle = ""
     tag = ""
     category = ""
     publication_type = ""
-    author = ""
+    author = "admin"
   
 [design]
   # Toggle between the various page layout types.

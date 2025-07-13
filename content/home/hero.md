@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "孟皓"
+title = "孟皓 (Hao Meng)"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "hero-academic.png"
@@ -48,9 +48,11 @@ hero_media = "hero-academic.png"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = '华中师范大学-伍伦贡大学 计算机双博士学位在读'
+  label = '华中师范大学人工智能教育学部 博士研究生'
 +++
 
-**智慧教育 • 智慧科研 • 知识图谱**
+**智能教学系统 • 技术增强学习 • 自动化问题求解**
 
-致力于运用人工智能和计算智能技术推动教育创新和科研发展，构建智能化的教育系统和科研平台。
+我是华中师范大学人工智能教育学部教育技术学专业的博士研究生，师从余新国教授。专注于智能教学系统、数学文字题求解和教育人工智能的研究与应用。
+
+已发表学术论文8篇（1篇SCI期刊 + 7篇EI会议），主持优秀博士学位论文孵化项目，参与多项国家自然科学基金项目。
