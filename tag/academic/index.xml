@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academic | 孟皓的学术主页</title><link>/tag/academic/</link><atom:link href="/tag/academic/index.xml" rel="self" type="application/rss+xml"/><description>Academic</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Academic</title><link>/tag/academic/</link></image><item><title>Getting Started with Academic Website</title><link>/post/getting-started/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/post/getting-started/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academic | Hao Meng - Academic Homepage</title><link>/tag/academic/</link><atom:link href="/tag/academic/index.xml" rel="self" type="application/rss+xml"/><description>Academic</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 Hao Meng. All rights reserved.</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_a9296fd8e02a9164.png</url><title>Academic</title><link>/tag/academic/</link></image><item><title>Getting Started with Academic Website</title><link>/post/getting-started/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/post/getting-started/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Welcome to your new academic website! This guide will help you get started with customizing your site to showcase your research, publications, and professional achievements.&lt;/p>
 &lt;h2 id="key-features">Key Features&lt;/h2>
 &lt;h3 id="1-responsive-design">1. &lt;strong>Responsive Design&lt;/strong>&lt;/h3>
@@ -17,50 +17,47 @@
 &lt;h3 id="adding-content">Adding Content&lt;/h3>
 &lt;h4 id="publications">Publications&lt;/h4>
 &lt;p>Create new publications by adding files to &lt;code>content/publication/&lt;/code>:&lt;/p>
-&lt;pre>&lt;code class="language-markdown">---
-title: &amp;quot;Your Publication Title&amp;quot;
-authors:
-- admin
-date: &amp;quot;2024-01-01T00:00:00Z&amp;quot;
-doi: &amp;quot;&amp;quot;
-publication_types: [&amp;quot;2&amp;quot;]
-publication: &amp;quot;Journal Name&amp;quot;
-publication_short: &amp;quot;&amp;quot;
-abstract: &amp;quot;Your abstract here...&amp;quot;
----
-&lt;/code>&lt;/pre>
-&lt;h4 id="blog-posts">Blog Posts&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: &amp;#34;Your Publication Title&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>authors:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> admin
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: &amp;#34;2024-01-01T00:00:00Z&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>doi: &amp;#34;&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>publication_types: [&amp;#34;2&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>publication: &amp;#34;Journal Name&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>publication_short: &amp;#34;&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>abstract: &amp;#34;Your abstract here...&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="blog-posts">Blog Posts&lt;/h4>
 &lt;p>Add blog posts in &lt;code>content/post/&lt;/code>:&lt;/p>
-&lt;pre>&lt;code class="language-markdown">---
-title: &amp;quot;Your Blog Post Title&amp;quot;
-authors:
-- admin
-tags:
-- Research
-- AI
-categories:
-- Blog
-date: &amp;quot;2024-01-01T00:00:00Z&amp;quot;
----
-&lt;/code>&lt;/pre>
-&lt;h4 id="projects">Projects&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: &amp;#34;Your Blog Post Title&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>authors:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> admin
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Research
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> AI
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>categories:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Blog
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: &amp;#34;2024-01-01T00:00:00Z&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="projects">Projects&lt;/h4>
 &lt;p>Showcase your projects in &lt;code>content/project/&lt;/code>:&lt;/p>
-&lt;pre>&lt;code class="language-markdown">---
-title: &amp;quot;Your Project&amp;quot;
-summary: &amp;quot;Project description&amp;quot;
-tags:
-- Deep Learning
-- Computer Vision
-categories:
-- Project
-date: &amp;quot;2024-01-01T00:00:00Z&amp;quot;
-external_link: &amp;quot;&amp;quot;
-image:
-caption: &amp;quot;Project Image&amp;quot;
-focal_point: Smart
----
-&lt;/code>&lt;/pre>
-&lt;h2 id="advanced-customization">Advanced Customization&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: &amp;#34;Your Project&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>summary: &amp;#34;Project description&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Deep Learning
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Computer Vision
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>categories:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">-&lt;/span> Project
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: &amp;#34;2024-01-01T00:00:00Z&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>external_link: &amp;#34;&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>image:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> caption: &amp;#34;Project Image&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> focal_point: Smart
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="advanced-customization">Advanced Customization&lt;/h2>
 &lt;h3 id="custom-css">Custom CSS&lt;/h3>
 &lt;p>You can add custom styles by editing &lt;code>assets/css/custom.css&lt;/code>. The file is already set up with some basic improvements.&lt;/p>
 &lt;h3 id="theme-customization">Theme Customization&lt;/h3>
@@ -77,9 +74,8 @@ focal_point: Smart
 &lt;/ul>
 &lt;h2 id="deployment">Deployment&lt;/h2>
 &lt;h3 id="local-development">Local Development&lt;/h3>
-&lt;pre>&lt;code class="language-bash">hugo server --buildDrafts --buildFuture
-&lt;/code>&lt;/pre>
-&lt;h3 id="deployment-options">Deployment Options&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo server --buildDrafts --buildFuture
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="deployment-options">Deployment Options&lt;/h3>
 &lt;ol>
 &lt;li>&lt;strong>Netlify&lt;/strong>: Connect your GitHub repository for automatic deployment&lt;/li>
 &lt;li>&lt;strong>GitHub Pages&lt;/strong>: Use GitHub Actions for automated deployment&lt;/li>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python | 孟皓的学术主页</title><link>/tag/python/</link><atom:link href="/tag/python/index.xml" rel="self" type="application/rss+xml"/><description>Python</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Python</title><link>/tag/python/</link></image><item><title>Deep Learning Research Project</title><link>/project/deep-learning/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/project/deep-learning/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python | Hao Meng - Academic Homepage</title><link>/tag/python/</link><atom:link href="/tag/python/index.xml" rel="self" type="application/rss+xml"/><description>Python</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 Hao Meng. All rights reserved.</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>/images/icon_hu_a9296fd8e02a9164.png</url><title>Python</title><link>/tag/python/</link></image><item><title>Deep Learning Research Project</title><link>/project/deep-learning/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>/project/deep-learning/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
 &lt;p>This project explores the application of deep learning techniques in computer vision tasks, specifically focusing on image classification and object detection. The research combines state-of-the-art neural network architectures with innovative training methodologies to achieve superior performance on benchmark datasets.&lt;/p>
 &lt;h2 id="key-features">Key Features&lt;/h2>
 &lt;ul>
@@ -10,25 +10,27 @@
 &lt;h2 id="technical-details">Technical Details&lt;/h2>
 &lt;h3 id="architecture">Architecture&lt;/h3>
 &lt;p>The project utilizes a hybrid approach combining convolutional neural networks with attention mechanisms:&lt;/p>
-&lt;pre>&lt;code class="language-python">import tensorflow as tf
-from tensorflow.keras import layers
-def create_model():
-base_model = tf.keras.applications.ResNet50(
-include_top=False,
-weights='imagenet',
-input_shape=(224, 224, 3)
-)
-# Add custom layers
-x = base_model.output
-x = layers.GlobalAveragePooling2D()(x)
-x = layers.Dropout(0.5)(x)
-x = layers.Dense(1024, activation='relu')(x)
-x = layers.Dropout(0.5)(x)
-outputs = layers.Dense(num_classes, activation='softmax')(x)
-model = tf.keras.Model(base_model.input, outputs)
-return model
-&lt;/code>&lt;/pre>
-&lt;h3 id="performance-metrics">Performance Metrics&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> tensorflow &lt;span style="color:#66d9ef">as&lt;/span> tf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">from&lt;/span> tensorflow.keras &lt;span style="color:#f92672">import&lt;/span> layers
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">create_model&lt;/span>():
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> base_model &lt;span style="color:#f92672">=&lt;/span> tf&lt;span style="color:#f92672">.&lt;/span>keras&lt;span style="color:#f92672">.&lt;/span>applications&lt;span style="color:#f92672">.&lt;/span>ResNet50(
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> include_top&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#66d9ef">False&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> weights&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;imagenet&amp;#39;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> input_shape&lt;span style="color:#f92672">=&lt;/span>(&lt;span style="color:#ae81ff">224&lt;/span>, &lt;span style="color:#ae81ff">224&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> )
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e"># Add custom layers&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> x &lt;span style="color:#f92672">=&lt;/span> base_model&lt;span style="color:#f92672">.&lt;/span>output
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> x &lt;span style="color:#f92672">=&lt;/span> layers&lt;span style="color:#f92672">.&lt;/span>GlobalAveragePooling2D()(x)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> x &lt;span style="color:#f92672">=&lt;/span> layers&lt;span style="color:#f92672">.&lt;/span>Dropout(&lt;span style="color:#ae81ff">0.5&lt;/span>)(x)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> x &lt;span style="color:#f92672">=&lt;/span> layers&lt;span style="color:#f92672">.&lt;/span>Dense(&lt;span style="color:#ae81ff">1024&lt;/span>, activation&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;relu&amp;#39;&lt;/span>)(x)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> x &lt;span style="color:#f92672">=&lt;/span> layers&lt;span style="color:#f92672">.&lt;/span>Dropout(&lt;span style="color:#ae81ff">0.5&lt;/span>)(x)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> outputs &lt;span style="color:#f92672">=&lt;/span> layers&lt;span style="color:#f92672">.&lt;/span>Dense(num_classes, activation&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;softmax&amp;#39;&lt;/span>)(x)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> model &lt;span style="color:#f92672">=&lt;/span> tf&lt;span style="color:#f92672">.&lt;/span>keras&lt;span style="color:#f92672">.&lt;/span>Model(base_model&lt;span style="color:#f92672">.&lt;/span>input, outputs)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> model
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="performance-metrics">Performance Metrics&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Accuracy&lt;/strong>: 95.2% on ImageNet validation set&lt;/li>
 &lt;li>&lt;strong>Inference Time&lt;/strong>: &amp;lt;50ms per image on GPU&lt;/li>
