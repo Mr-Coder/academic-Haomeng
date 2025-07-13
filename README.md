@@ -1,46 +1,213 @@
-<p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
+# Haomeng's Academic Website
 
-# Academic Kickstart: The Template for [Academic Website Builder](https://sourcethemes.com/academic/)
+A modern academic website built with [Hugo](https://gohugo.io/) and the [Academic theme](https://sourcethemes.com/academic/). This website showcases research, publications, projects, and professional achievements.
 
-[**Academic**](https://github.com/gcushen/hugo-academic) makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
+## 🚀 Features
 
-**Academic Kickstart** provides a minimal template to kickstart your new website.
+- **Responsive Design**: Works perfectly on all devices
+- **Academic Focus**: Specifically designed for researchers and academics
+- **Easy Content Management**: Write content in Markdown
+- **Multiple Deployment Options**: GitHub Pages, Netlify, Vercel
+- **SEO Optimized**: Built-in search engine optimization
+- **Dark/Light Mode**: Toggle between themes
+- **Fast Loading**: Optimized for performance
 
-- 👉 [**Get Started**](#install)
-- 📚 [View the **documentation**](https://sourcethemes.com/academic/docs/)
-- 💬 [Chat with the **Academic community**](https://spectrum.chat/academic) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@source_themes](https://twitter.com/source_themes) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithAcademic](https://twitter.com/search?q=%23MadeWithAcademic&src=typd)
-- 💡 [Request a **feature** or report a **bug**](https://github.com/gcushen/hugo-academic/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- :heart: **Support development** of Academic:
-  - ☕️ [**Donate a coffee**](https://paypal.me/cushen)
-  - 💵 [Become a backer on **Patreon** and **unlock rewards**](https://www.patreon.com/cushen)
-  - 🖼️ [Decorate your laptop or journal with an Academic **sticker**](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - 👕 [Wear the **T-shirt**](https://academic.threadless.com/)
-  - :woman_technologist: [**Contribute**](https://sourcethemes.com/academic/docs/contribute/)
+## 📋 Prerequisites
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+- [Hugo](https://gohugo.io/installation/) (Extended version recommended)
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (for some deployment options)
 
-## Install
+## 🛠️ Installation
 
-You can choose from one of the following four methods to install:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/academic-Haomeng.git
+   cd academic-Haomeng
+   ```
 
-* [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
-* [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
-* [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
-* [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
+2. **Install Hugo** (if not already installed)
+   ```bash
+   # macOS
+   brew install hugo
+   
+   # Windows
+   choco install hugo-extended
+   
+   # Linux
+   sudo apt-get install hugo
+   ```
 
-Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/).
+3. **Run the development server**
+   ```bash
+   hugo server --buildDrafts --buildFuture
+   ```
 
-## Ecosystem
+4. **Open your browser**
+   Navigate to `http://localhost:1313`
 
-* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
+## 📝 Customization
 
-## License
+### Personal Information
 
-Copyright 2017-present [George Cushen](https://georgecushen.com).
+1. **Update Profile**: Edit `content/authors/admin/_index.md`
+2. **Add Photo**: Place your photo in `content/authors/admin/avatar.jpg`
+3. **Contact Info**: Update `config/_default/params.toml`
 
-Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
+### Website Configuration
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+- **Site Title**: `config/_default/config.toml`
+- **Theme Settings**: `config/_default/params.toml`
+- **Navigation**: `config/_default/menus.toml`
+
+### Content Management
+
+#### Adding Publications
+Create files in `content/publication/`:
+```markdown
+---
+title: "Your Paper Title"
+authors:
+- admin
+date: "2024-01-01T00:00:00Z"
+publication_types: ["1"]
+publication: "Journal Name"
+---
+```
+
+#### Adding Blog Posts
+Create files in `content/post/`:
+```markdown
+---
+title: "Your Blog Post"
+authors:
+- admin
+tags:
+- Research
+categories:
+- Blog
+date: "2024-01-01T00:00:00Z"
+---
+```
+
+#### Adding Projects
+Create files in `content/project/`:
+```markdown
+---
+title: "Your Project"
+summary: "Project description"
+tags:
+- Deep Learning
+categories:
+- Project
+date: "2024-01-01T00:00:00Z"
+---
+```
+
+## 🚀 Deployment
+
+### Option 1: GitHub Pages (Recommended)
+
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+2. **Enable GitHub Pages**
+   - Go to your repository settings
+   - Navigate to Pages section
+   - Select source branch (gh-pages or main)
+   - Your site will be available at `https://yourusername.github.io/academic-Haomeng/`
+
+### Option 2: Netlify
+
+1. **Connect to Netlify**
+   - Sign up at [netlify.com](https://netlify.com)
+   - Connect your GitHub repository
+   - Set build command: `hugo --minify`
+   - Set publish directory: `public`
+
+### Option 3: Vercel
+
+1. **Deploy to Vercel**
+   ```bash
+   npm install -g vercel
+   vercel
+   ```
+
+### Option 4: Using Deployment Script
+
+Use the provided deployment script:
+```bash
+# Build the website
+./scripts/deploy.sh build
+
+# Test locally
+./scripts/deploy.sh test
+
+# Deploy to GitHub Pages
+./scripts/deploy.sh github
+
+# Deploy to Netlify
+./scripts/deploy.sh netlify
+
+# Deploy to Vercel
+./scripts/deploy.sh vercel
+
+# Deploy to all platforms
+./scripts/deploy.sh all
+```
+
+## 🔧 Advanced Configuration
+
+### Custom CSS
+Edit `assets/css/custom.css` to add custom styles.
+
+### Custom JavaScript
+Add custom JavaScript files to `assets/js/` and reference them in `config/_default/params.toml`.
+
+### Analytics
+Add Google Analytics by setting the tracking ID in `config/_default/params.toml`:
+```toml
+[marketing]
+  google_analytics = "UA-XXXXXXXXX-X"
+```
+
+### Search
+Enable search functionality by configuring Algolia in `config/_default/params.toml`.
+
+## 📚 Documentation
+
+- [Academic Theme Documentation](https://sourcethemes.com/academic/docs/)
+- [Hugo Documentation](https://gohugo.io/documentation/)
+- [Markdown Guide](https://www.markdownguide.org/)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 🙏 Acknowledgments
+
+- [Academic Theme](https://sourcethemes.com/academic/) by George Cushen
+- [Hugo](https://gohugo.io/) static site generator
+- [Bootstrap](https://getbootstrap.com/) for responsive design
+
+## 📞 Contact
+
+- **Email**: haomeng@example.org
+- **Website**: [your-website.com](https://your-website.com)
+- **GitHub**: [@yourusername](https://github.com/yourusername)
+
+---
+
+⭐ If you find this template useful, please give it a star on GitHub!
