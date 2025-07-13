@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Haomeng"
+title = "孟皓"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "hero-academic.png"
@@ -20,8 +20,8 @@ hero_media = "hero-academic.png"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "#667eea"
-  gradient_end = "#764ba2"
+  gradient_start = "#4a90e2"
+  gradient_end = "#357abd"
   
   # Background image.
   # image = ""  # Name of image in `static/img/`.
@@ -38,19 +38,19 @@ hero_media = "hero-academic.png"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "#about"
-  label = "Learn More"
+  label = "了解更多"
   icon_pack = "fas"
-  icon = "user"
+  icon = "user-graduate"
   
 [cta_alt]
   url = "#publications"
-  label = "View Publications"
+  label = "查看论文"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = 'Research Scientist in AI & Machine Learning'
+  label = '华中师范大学-伍伦贡大学 计算机双博士学位在读'
 +++
 
-**Artificial Intelligence • Machine Learning • Data Science**
+**智慧教育 • 智慧科研 • 知识图谱**
 
-Exploring the frontiers of AI research and developing innovative solutions for real-world problems.
+致力于运用人工智能和计算智能技术推动教育创新和科研发展，构建智能化的教育系统和科研平台。

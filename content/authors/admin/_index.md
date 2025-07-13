@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Haomeng
+title: 孟皓
 
 # Username (this should match the folder name)
 authors:
@@ -10,34 +10,42 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Scientist
+role: 博士研究生 | 计算机应用专业
 
 # Organizations/Affiliations
 organizations:
-- name: Your Institution
-  url: ""
+- name: 伍伦贡大学计算机学院
+  url: "https://www.uow.edu.au/"
+- name: 华中师范大学
+  url: "https://www.ccnu.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include artificial intelligence, machine learning, and data science.
+bio: 我的研究方向包括智慧教育、智慧科研，专注于知识图谱、教育技术和计算智能系统的研究与应用。
 
 interests:
-- Artificial Intelligence
-- Machine Learning
-- Data Science
-- Computer Vision
-- Natural Language Processing
+- 智慧教育 (Smart Education)
+- 智慧科研 (Smart Research)
+- 知识图谱 (Knowledge Graphs)
+- 教育技术 (Educational Technology)
+- 计算智能系统 (Computational Intelligence Systems)
+- 机器学习 (Machine Learning)
 
 education:
   courses:
-  - course: PhD in Computer Science
-    institution: Your University
-    year: 2023
-  - course: MSc in Computer Science
-    institution: Your University
-    year: 2020
-  - course: BSc in Computer Science
-    institution: Your University
-    year: 2018
+  - course: 博士学位 (在读)
+    institution: 华中师范大学-伍伦贡大学 计算机双博士学位
+    year: 2019-至今
+    details: "导师：沈俊、余新国"
+  - course: 硕士学位
+    institution: 华中师范大学-伍伦贡大学
+    year: 2017-2019
+    details: "导师：余新国"
+  - course: 学士学位
+    institution: 太原理工大学
+    year: 2013-2017
+  - course: 交换学生
+    institution: 国立高雄师范大学
+    year: 2015年7月-2015年12月
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -46,19 +54,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/yourusername
+  link: '#contact'
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=youruserid
-- icon: github
-  icon_pack: fab
-  link: https://github.com/yourusername
-- icon: linkedin
-  icon_pack: fab
-  link: https://linkedin.com/in/yourusername
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/your-orcid-id
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/your-profile
+- icon: ieee
+  icon_pack: ai
+  link: https://ieeexplore.ieee.org/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,11 +80,43 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Researchers
-- Visitors
+- PhD Students
 ---
 
-Haomeng is a research scientist with expertise in artificial intelligence and machine learning. His research focuses on developing innovative solutions for real-world problems using cutting-edge AI technologies.
+孟皓是华中师范大学-伍伦贡大学计算机学院的博士研究生，专业方向为计算机应用。他的研究领域主要集中在智慧教育和智慧科研，致力于运用人工智能和计算智能技术推动教育创新和科研发展。
 
-He has published numerous papers in top-tier conferences and journals, and has contributed to several open-source projects in the AI community. His work spans across computer vision, natural language processing, and data science applications.
+## 学术成就
 
-Currently, he is working on projects that combine deep learning with traditional machine learning approaches to solve complex problems in various domains.
+### 论文发表
+- 已发表英文论文**20余篇**，涵盖知识图谱、教育技术、智能系统等领域
+
+### 科研项目
+- 参与**国家级自然科学基金项目5项**
+- 主持**优秀博士生毕业论文培育项目1项**
+- 入选**国家公派创新性人才联合培养博士研究生**项目
+
+### 学术服务
+担任**六个杂志的审稿人**：
+- Knowledge-Based System (KBS)
+- IEEE Transactions on Learning Technology (IEEE TLT)
+- International Journal of Computational Intelligence Systems
+- Journal of Educational Computing Research
+- Complex & Intelligent Systems
+
+担任**八项国际会议的审稿人**：
+- ICPR 2024
+- TALE 2021
+- IEIR 2022, 2023
+- IJCKG 2023
+- AAAI 2024
+- SAC 2024
+- ICSOC 2024
+
+### 专业资质
+- **IEEE Member**
+
+## 教学经历
+承担**4门计算机课程的助教**工作，积极参与教学实践，培养学生的计算思维和实践能力。
+
+## 研究兴趣
+我的研究专注于将人工智能技术应用于教育领域，通过构建智能化的教育系统和科研平台，提升教学质量和科研效率。主要研究方向包括知识图谱在教育中的应用、智能教学系统设计、以及基于大数据的教育分析等。

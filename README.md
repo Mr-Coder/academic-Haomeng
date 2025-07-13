@@ -1,32 +1,76 @@
-# Haomeng's Academic Website
+# 孟皓的学术主页
 
-A modern academic website built with [Hugo](https://gohugo.io/) and the [Academic theme](https://sourcethemes.com/academic/). This website showcases research, publications, projects, and professional achievements.
+基于 [Hugo](https://gohugo.io/) 和 [Academic主题](https://sourcethemes.com/academic/) 构建的现代化学术网站。本网站展示了我在智慧教育、知识图谱和计算智能系统领域的研究成果、学术论文和项目经历。
 
-## 🚀 Features
+## 🎓 关于我
 
-- **Responsive Design**: Works perfectly on all devices
-- **Academic Focus**: Specifically designed for researchers and academics
-- **Easy Content Management**: Write content in Markdown
-- **Multiple Deployment Options**: GitHub Pages, Netlify, Vercel
-- **SEO Optimized**: Built-in search engine optimization
-- **Dark/Light Mode**: Toggle between themes
-- **Fast Loading**: Optimized for performance
+我是华中师范大学-伍伦贡大学计算机学院的博士研究生，专业方向为计算机应用。我的研究领域主要集中在：
 
-## 📋 Prerequisites
+- **智慧教育 (Smart Education)**
+- **智慧科研 (Smart Research)**  
+- **知识图谱 (Knowledge Graphs)**
+- **教育技术 (Educational Technology)**
+- **计算智能系统 (Computational Intelligence Systems)**
 
-- [Hugo](https://gohugo.io/installation/) (Extended version recommended)
+## 🏫 教育背景
+
+- **博士学位 (在读)**：华中师范大学-伍伦贡大学 计算机双博士学位 (2019-至今)
+  - 导师：沈俊教授、余新国教授
+- **硕士学位**：华中师范大学-伍伦贡大学 (2017-2019)
+  - 导师：余新国教授
+- **学士学位**：太原理工大学 (2013-2017)
+- **交换学生**：国立高雄师范大学 (2015年7月-12月)
+
+## 📊 学术成就
+
+### 论文发表
+- 已发表英文论文 **20余篇**
+- 主要发表在 IEEE TLT、KBS、IJCIS、JECR 等期刊
+
+### 科研项目
+- 参与国家自然科学基金项目 **5项**
+- 主持优秀博士生毕业论文培育项目 **1项**
+- 入选国家公派创新性人才联合培养博士研究生项目
+
+### 学术服务
+- **6个国际期刊审稿人**：KBS, IEEE TLT, IJCIS, JECR, Complex & Intelligent Systems
+- **8个国际会议审稿人**：ICPR 2024, TALE 2021, IEIR 2022/2023, IJCKG 2023, AAAI 2024, SAC 2024, ICSOC 2024
+- **IEEE Member**
+
+## 🚀 网站特性
+
+- **响应式设计**：完美适配所有设备
+- **学术专注**：专为研究人员和学者设计
+- **内容管理**：使用Markdown格式编写
+- **多平台部署**：支持GitHub Pages、Netlify、Vercel
+- **SEO优化**：内置搜索引擎优化
+- **主题切换**：支持明暗模式切换
+- **快速加载**：性能优化
+
+## 📋 技术栈
+
+- **静态站点生成器**：Hugo (Extended)
+- **主题**：Academic Theme
+- **样式**：自定义CSS + Bootstrap
+- **部署**：GitHub Actions自动化部署
+- **版本控制**：Git
+
+## 🛠️ 本地开发
+
+### 环境要求
+- [Hugo](https://gohugo.io/installation/) (Extended版本)
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/) (for some deployment options)
+- [Node.js](https://nodejs.org/) (可选，用于某些部署选项)
 
-## 🛠️ Installation
+### 安装步骤
 
-1. **Clone the repository**
+1. **克隆仓库**
    ```bash
-   git clone https://github.com/yourusername/academic-Haomeng.git
+   git clone https://github.com/Mr-Coder/academic-Haomeng.git
    cd academic-Haomeng
    ```
 
-2. **Install Hugo** (if not already installed)
+2. **安装Hugo** (如果尚未安装)
    ```bash
    # macOS
    brew install hugo
@@ -38,176 +82,147 @@ A modern academic website built with [Hugo](https://gohugo.io/) and the [Academi
    sudo apt-get install hugo
    ```
 
-3. **Run the development server**
+3. **启动开发服务器**
    ```bash
    hugo server --buildDrafts --buildFuture
    ```
 
-4. **Open your browser**
-   Navigate to `http://localhost:1313`
+4. **打开浏览器**
+   访问 `http://localhost:1313`
 
-## 📝 Customization
+## 📝 内容管理
 
-### Personal Information
+### 更新个人信息
+1. **个人资料**：编辑 `content/authors/admin/_index.md`
+2. **头像照片**：将照片放置在 `content/authors/admin/avatar.jpg`
+3. **联系信息**：修改 `config/_default/params.toml`
 
-1. **Update Profile**: Edit `content/authors/admin/_index.md`
-2. **Add Photo**: Place your photo in `content/authors/admin/avatar.jpg`
-3. **Contact Info**: Update `config/_default/params.toml`
+### 添加内容
 
-### Website Configuration
-
-- **Site Title**: `config/_default/config.toml`
-- **Theme Settings**: `config/_default/params.toml`
-- **Navigation**: `config/_default/menus.toml`
-
-### Content Management
-
-#### Adding Publications
-Create files in `content/publication/`:
+#### 发表论文
+在 `content/publication/` 目录下创建新文件：
 ```markdown
 ---
-title: "Your Paper Title"
+title: "论文标题"
 authors:
 - admin
 date: "2024-01-01T00:00:00Z"
 publication_types: ["1"]
-publication: "Journal Name"
+publication: "期刊名称"
 ---
 ```
 
-#### Adding Blog Posts
-Create files in `content/post/`:
+#### 博客文章
+在 `content/post/` 目录下创建新文件：
 ```markdown
 ---
-title: "Your Blog Post"
+title: "文章标题"
 authors:
 - admin
 tags:
-- Research
+- 研究
+- 人工智能
 categories:
-- Blog
+- 博客
 date: "2024-01-01T00:00:00Z"
 ---
 ```
 
-#### Adding Projects
-Create files in `content/project/`:
+#### 研究项目
+在 `content/project/` 目录下创建新文件：
 ```markdown
 ---
-title: "Your Project"
-summary: "Project description"
+title: "项目名称"
+summary: "项目描述"
 tags:
-- Deep Learning
+- 深度学习
+- 计算机视觉
 categories:
-- Project
+- 项目
 date: "2024-01-01T00:00:00Z"
 ---
 ```
 
-## 🚀 Deployment
+## 🚀 部署选项
 
-### Option 1: GitHub Pages (Recommended)
+### 选项1：GitHub Pages (推荐)
 
-1. **Push to GitHub**
+1. **推送到GitHub**
    ```bash
    git add .
-   git commit -m "Initial commit"
-   git push origin main
+   git commit -m "更新网站内容"
+   git push origin master
    ```
 
-2. **Enable GitHub Pages**
-   - Go to your repository settings
-   - Navigate to Pages section
-   - Select source branch (gh-pages or main)
-   - Your site will be available at `https://yourusername.github.io/academic-Haomeng/`
+2. **启用GitHub Pages**
+   - 进入仓库设置
+   - 找到Pages部分
+   - 选择源分支 (gh-pages 或 master)
+   - 网站将在 `https://yourusername.github.io/academic-Haomeng/` 可用
 
-### Option 2: Netlify
+### 选项2：使用部署脚本
 
-1. **Connect to Netlify**
-   - Sign up at [netlify.com](https://netlify.com)
-   - Connect your GitHub repository
-   - Set build command: `hugo --minify`
-   - Set publish directory: `public`
-
-### Option 3: Vercel
-
-1. **Deploy to Vercel**
-   ```bash
-   npm install -g vercel
-   vercel
-   ```
-
-### Option 4: Using Deployment Script
-
-Use the provided deployment script:
+使用提供的部署脚本：
 ```bash
-# Build the website
+# 构建网站
 ./scripts/deploy.sh build
 
-# Test locally
+# 本地测试
 ./scripts/deploy.sh test
 
-# Deploy to GitHub Pages
+# 部署到GitHub Pages
 ./scripts/deploy.sh github
 
-# Deploy to Netlify
-./scripts/deploy.sh netlify
-
-# Deploy to Vercel
-./scripts/deploy.sh vercel
-
-# Deploy to all platforms
+# 部署到所有平台
 ./scripts/deploy.sh all
 ```
 
-## 🔧 Advanced Configuration
+## 🔧 高级配置
 
-### Custom CSS
-Edit `assets/css/custom.css` to add custom styles.
+### 自定义样式
+编辑 `assets/css/custom.css` 添加自定义样式。
 
-### Custom JavaScript
-Add custom JavaScript files to `assets/js/` and reference them in `config/_default/params.toml`.
-
-### Analytics
-Add Google Analytics by setting the tracking ID in `config/_default/params.toml`:
+### 分析工具
+在 `config/_default/params.toml` 中设置Google Analytics：
 ```toml
 [marketing]
   google_analytics = "UA-XXXXXXXXX-X"
 ```
 
-### Search
-Enable search functionality by configuring Algolia in `config/_default/params.toml`.
+### 搜索功能
+配置Algolia搜索在 `config/_default/params.toml` 中。
 
-## 📚 Documentation
+## 📚 文档资源
 
-- [Academic Theme Documentation](https://sourcethemes.com/academic/docs/)
-- [Hugo Documentation](https://gohugo.io/documentation/)
-- [Markdown Guide](https://www.markdownguide.org/)
+- [Academic主题文档](https://sourcethemes.com/academic/docs/)
+- [Hugo文档](https://gohugo.io/documentation/)
+- [Markdown指南](https://www.markdownguide.org/)
 
-## 🤝 Contributing
+## 🤝 贡献
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork本仓库
+2. 创建功能分支 (`git checkout -b feature/amazing-feature`)
+3. 提交更改 (`git commit -m 'Add amazing feature'`)
+4. 推送到分支 (`git push origin feature/amazing-feature`)
+5. 开启Pull Request
 
-## 📄 License
+## 📄 许可证
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+本项目基于MIT许可证 - 查看 [LICENSE.md](LICENSE.md) 文件了解详情。
 
-## 🙏 Acknowledgments
+## 🙏 致谢
 
-- [Academic Theme](https://sourcethemes.com/academic/) by George Cushen
-- [Hugo](https://gohugo.io/) static site generator
-- [Bootstrap](https://getbootstrap.com/) for responsive design
+- [Academic主题](https://sourcethemes.com/academic/) by George Cushen
+- [Hugo](https://gohugo.io/) 静态网站生成器
+- [Bootstrap](https://getbootstrap.com/) 响应式设计框架
 
-## 📞 Contact
+## 📞 联系方式
 
-- **Email**: haomeng@example.org
-- **Website**: [your-website.com](https://your-website.com)
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **邮箱**：menghao@example.edu
+- **机构**：华中师范大学计算机学院
+- **地址**：湖北省武汉市华中师范大学
+- **GitHub**：[@Mr-Coder](https://github.com/Mr-Coder)
 
 ---
 
-⭐ If you find this template useful, please give it a star on GitHub!
+⭐ 如果这个项目对您有帮助，请给它一个星标！
