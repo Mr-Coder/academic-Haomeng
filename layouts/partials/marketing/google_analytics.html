@@ -1,1 +1,6 @@
-<!-- Google Analytics disabled for now --> 
+{{ $ga := site.Params.marketing.google_analytics | default "" }}
+{{ $gtm := site.Params.marketing.google_tag_manager | default "" }}
+
+{{ if (in (slice (getenv "HUGO_ENV") hugo.Environment) "production") | and $ga | and (not $gtm) }}
+<!-- Google Analytics would be here if enabled -->
+{{ end }} 
