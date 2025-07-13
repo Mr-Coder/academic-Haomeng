@@ -125,3 +125,17 @@
     padding: 40px 0;
   }
 } 
+
+/* Fix About section text color for readability on light backgrounds */
+.home-section#about, .widget-about, .about-section {
+  color: #222 !important;
+}
+
+.home-section#about h1,
+.home-section#about h2,
+.home-section#about h3,
+.home-section#about h4,
+.home-section#about h5,
+.home-section#about h6 {
+  color: #1a237e !important;
+} 
