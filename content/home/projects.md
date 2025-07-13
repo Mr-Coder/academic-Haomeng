@@ -28,10 +28,6 @@ subtitle = ""
   [[content.filter_button]]
     name = "Intelligent Tutoring System"
     tag = "Intelligent Tutoring System"
-  
-  [[content.filter_button]]
-    name = "Educational Technology"
-    tag = "Educational Technology"
 
   [[content.filter_button]]
     name = "Algorithm Research"
