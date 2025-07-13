@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>孟皓 (Hao Meng) | 孟皓的学术主页</title><link>/author/%E5%AD%9F%E7%9A%93-hao-meng/</link><atom:link href="/author/%E5%AD%9F%E7%9A%93-hao-meng/index.xml" rel="self" type="application/rss+xml"/><description>孟皓 (Hao Meng)</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>孟皓 (Hao Meng)</title><link>/author/%E5%AD%9F%E7%9A%93-hao-meng/</link></image><item><title>我的学术研究之路：从智慧教育到知识图谱</title><link>/post/research-journey/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>/post/research-journey/</guid><description>&lt;h2 id="引言">引言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hao Meng | 孟皓的学术主页</title><link>/author/hao-meng/</link><atom:link href="/author/hao-meng/index.xml" rel="self" type="application/rss+xml"/><description>Hao Meng</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 孟皓. All rights reserved.</copyright><image><url>/images/icon_hu_e747e089a9e68c83.png</url><title>Hao Meng</title><link>/author/hao-meng/</link></image><item><title>我的学术研究之路：从智慧教育到知识图谱</title><link>/post/research-journey/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>/post/research-journey/</guid><description>&lt;h2 id="引言">引言&lt;/h2>
 &lt;p>时光荏苒，从2013年进入太原理工大学开始我的本科学习，到现在在华中师范大学-伍伦贡大学攻读计算机双博士学位，已经走过了十多年的学术求学路。在这个过程中，我逐渐找到了自己的研究方向——智慧教育与知识图谱，也收获了许多宝贵的经验和感悟。&lt;/p>
 &lt;h2 id="学术起点本科探索阶段">学术起点：本科探索阶段&lt;/h2>
 &lt;h3 id="太原理工大学的求学时光2013-2017">太原理工大学的求学时光（2013-2017）&lt;/h3>
@@ -375,23 +375,19 @@ focal_point: Smart
 &lt;li>&lt;strong>Solution Generation&lt;/strong>: Systematic approach to generating mathematical solutions&lt;/li>
 &lt;li>&lt;strong>Evaluation Framework&lt;/strong>: Comprehensive evaluation of system performance&lt;/li>
 &lt;/ul>
-&lt;p>This work demonstrates the effectiveness of transformer-based language models in educational applications, particularly in the domain of automated mathematical problem solving.&lt;/p></description></item><item><title>孟皓 (Hao Meng)</title><link>/author/%E5%AD%9F%E7%9A%93-hao-meng/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/%E5%AD%9F%E7%9A%93-hao-meng/</guid><description>&lt;p>我是华中师范大学人工智能教育学部教育技术学专业的博士研究生，师从余新国教授。我的研究兴趣包括智能教学系统、技术增强学习和自动化问题求解器，专注于智能教育和智能科研领域。&lt;/p>
-&lt;h2 id="研究背景">研究背景&lt;/h2>
-&lt;p>自2019年以来，我一直在余新国教授的指导下从事研究工作。我的主要研究方向是基于感质角色的实体依赖图（EDG）来表示和提取数量关系，用于求解中文代数文字题。传统的神经求解器使用端到端模型将问题文本转换为数学表达式，但在复杂场景中缺乏数量关系获取能力。我提出的方法利用EDG来表示隐藏在数学对象感质角色中的数量关系，设计了EDG生成和数量关系提取的算法来解决代数文字题。&lt;/p>
-&lt;h2 id="学术成果">学术成果&lt;/h2>
-&lt;p>截至目前，我已发表学术论文8篇，其中包括1篇SCI期刊论文和7篇EI会议论文。我的研究工作主要集中在数学文字题求解、智能教学系统和教育技术领域。&lt;/p>
-&lt;h2 id="研究项目">研究项目&lt;/h2>
+&lt;p>This work demonstrates the effectiveness of transformer-based language models in educational applications, particularly in the domain of automated mathematical problem solving.&lt;/p></description></item><item><title>Hao Meng</title><link>/author/hao-meng/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/hao-meng/</guid><description>&lt;p>&lt;strong>Hao Meng&lt;/strong> is a Ph.D. candidate in Education Technology at the Faculty of Artificial Intelligence in Education, Central China Normal University, under the supervision of Prof. Xinguo Yu. His research focuses on developing intelligent tutoring systems for mathematics education, with particular emphasis on Chinese algebra story problems.&lt;/p>
+&lt;p>His current research centers on the qualia role-based entity-dependency graph (EDG) approach for solving Chinese math word problems. He has published &lt;strong>8 research papers&lt;/strong> (1 SCI journal article and 7 EI conference papers) and actively participates in national research projects.&lt;/p>
+&lt;p>Hao has extensive experience in educational technology research and has served as a teaching assistant, research assistant, and conference organizer. His technical expertise includes Java, Python, R, and LaTeX, with strong competencies in machine learning, natural language processing, and educational data analysis.&lt;/p>
+&lt;p>&lt;strong>Research Highlights:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>2022-2023&lt;/strong>: 主持华中师范大学优秀博士学位论文孵化项目，研究基于感质结构的包含常识知识的代数文字题求解&lt;/li>
-&lt;li>&lt;strong>2020-2023&lt;/strong>: 参与国家自然科学基金项目&amp;quot;基于深度关系网络的代数问题求解增强算法研究&amp;quot;&lt;/li>
-&lt;li>&lt;strong>2023-2026&lt;/strong>: 参与国家自然科学基金项目&amp;quot;人机智能协同指导研究生算法创新的方法研究&amp;quot;&lt;/li>
+&lt;li>Development of novel approaches for Chinese math word problem solving&lt;/li>
+&lt;li>Integration of knowledge graphs in intelligent tutoring systems&lt;/li>
+&lt;li>Application of AI techniques in educational contexts&lt;/li>
+&lt;li>Focus on technology-enhanced learning environments&lt;/li>
 &lt;/ul>
-&lt;h2 id="教学与服务">教学与服务&lt;/h2>
-&lt;p>在博士学习期间，我担任了华中师范大学-伍伦贡大学联合学院的教学助理，协助教授CSIT940研究方法论、CSCI944感知与规划、CSCI920计算机科学前沿等课程。我还协助余新国教授共同指导本科生毕业论文，并参与组织了第9届IEEE工程教学、评估与学习国际会议（TALE 2021）和智能教育与智能研究国际会议（IEIR 2022）。&lt;/p>
-&lt;h2 id="技能专长">技能专长&lt;/h2>
+&lt;p>&lt;strong>Current Projects:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>编程语言&lt;/strong>: Java, Python, R, LaTeX&lt;/li>
-&lt;li>&lt;strong>研究领域&lt;/strong>: 学术研究、教学、培训、咨询、LaTeX排版与发表&lt;/li>
-&lt;li>&lt;strong>语言能力&lt;/strong>: 中文（母语）、英语（读写说流利）&lt;/li>
-&lt;/ul>
-&lt;p>我致力于在专业生涯中客观地朝着目标努力，在学院和国家的规则、伦理和法规范围内工作，努力在学习、研究和创新方面追求卓越。我热衷于自主学习，并通过学习和发表论文将获得的知识传递给社区。我是基于目标的教学和学习的倡导者，我的目标是促进不同智力水平的学习、批判性思维和问题解决，并为他们在学术界、工业界和整个社会中迎接新挑战做好准备。&lt;/p></description></item></channel></rss>
+&lt;li>Outstanding Doctoral Dissertation Incubation Program&lt;/li>
+&lt;li>National Natural Science Foundation research projects&lt;/li>
+&lt;li>International collaboration on educational AI systems&lt;/li>
+&lt;/ul></description></item></channel></rss>
