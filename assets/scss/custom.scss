@@ -529,8 +529,8 @@ section.home-section.wg-portfolio .section-heading h1::after,
   border-radius: 2px;
 }
 
-/* Showcase layout styling */
-.wg-portfolio.view-showcase .showcase {
+/* Showcase layout styling - FIX: Use correct selectors */
+.wg-portfolio .project-showcase .project-item {
   margin-bottom: 4rem !important;
   padding: 3rem !important;
   border-radius: 2rem !important;
@@ -541,26 +541,26 @@ section.home-section.wg-portfolio .section-heading h1::after,
   border: 1px solid #e2e8f0 !important;
 }
 
-.wg-portfolio.view-showcase .showcase:hover {
+.wg-portfolio .project-showcase .project-item:hover {
   transform: translateY(-8px) !important;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15) !important;
 }
 
 /* Force white background for project cards even in dark mode */
-.dark .wg-portfolio.view-showcase .showcase {
+.dark .wg-portfolio .project-showcase .project-item {
   background: #ffffff !important;
   border: 1px solid #e2e8f0 !important;
 }
 
 /* Ensure all text in project cards remains dark even in dark mode */
-.dark .wg-portfolio.view-showcase .showcase *,
-.dark .wg-portfolio.view-showcase .showcase h1,
-.dark .wg-portfolio.view-showcase .showcase h2,
-.dark .wg-portfolio.view-showcase .showcase h3,
-.dark .wg-portfolio.view-showcase .showcase h4,
-.dark .wg-portfolio.view-showcase .showcase p,
-.dark .wg-portfolio.view-showcase .showcase .article-style,
-.dark .wg-portfolio.view-showcase .showcase .article-style p {
+.dark .wg-portfolio .project-showcase .project-item *,
+.dark .wg-portfolio .project-showcase .project-item h1,
+.dark .wg-portfolio .project-showcase .project-item h2,
+.dark .wg-portfolio .project-showcase .project-item h3,
+.dark .wg-portfolio .project-showcase .project-item h4,
+.dark .wg-portfolio .project-showcase .project-item p,
+.dark .wg-portfolio .project-showcase .project-item .article-style,
+.dark .wg-portfolio .project-showcase .project-item .article-style p {
   color: #2d3748 !important;
 }
 
@@ -574,8 +574,9 @@ section.home-section.wg-portfolio .section-heading h1::after,
   padding: 2rem !important;
 }
 
-/* Showcase project title */
-.wg-portfolio.view-showcase h3 {
+/* Showcase project title - FIX: Use correct selectors */
+.wg-portfolio .project-showcase .project-item h3,
+.wg-portfolio .project-showcase .project-item .article-title {
   font-family: 'Crimson Text', Georgia, serif !important;
   font-size: 2rem !important;
   font-weight: 700 !important;
@@ -589,18 +590,20 @@ section.home-section.wg-portfolio .section-heading h1::after,
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
 }
 
-.wg-portfolio.view-showcase h3 a {
+.wg-portfolio .project-showcase .project-item h3 a,
+.wg-portfolio .project-showcase .project-item .article-title a {
   color: #2d3748 !important;
   text-decoration: none !important;
   transition: color 0.3s ease !important;
 }
 
-.wg-portfolio.view-showcase h3 a:hover {
+.wg-portfolio .project-showcase .project-item h3 a:hover,
+.wg-portfolio .project-showcase .project-item .article-title a:hover {
   color: #3182ce !important;
 }
 
-/* Showcase project description */
-.wg-portfolio.view-showcase .article-style {
+/* Showcase project description - FIX: Use correct selectors */
+.wg-portfolio .project-showcase .project-item .article-style {
   color: #2d3748 !important;
   font-size: 1.1rem !important;
   line-height: 1.7 !important;
@@ -628,50 +631,54 @@ section.home-section.wg-portfolio .section-heading h1::after,
   font-size: 0.85rem !important;
 }
 
-/* Ensure all text in projects section has proper contrast */
-.wg-portfolio.view-showcase .showcase,
-.wg-portfolio.view-showcase .showcase *,
-.wg-portfolio.view-showcase .showcase p,
-.wg-portfolio.view-showcase .showcase h1,
-.wg-portfolio.view-showcase .showcase h2,
-.wg-portfolio.view-showcase .showcase h3,
-.wg-portfolio.view-showcase .showcase h4,
-.wg-portfolio.view-showcase .showcase h5,
-.wg-portfolio.view-showcase .showcase h6,
-.wg-portfolio.view-showcase .showcase .article-style,
-.wg-portfolio.view-showcase .showcase .article-style p {
+/* Ensure all text in projects section has proper contrast - FIX: Use correct selectors */
+.wg-portfolio .project-showcase .project-item,
+.wg-portfolio .project-showcase .project-item *,
+.wg-portfolio .project-showcase .project-item p,
+.wg-portfolio .project-showcase .project-item h1,
+.wg-portfolio .project-showcase .project-item h2,
+.wg-portfolio .project-showcase .project-item h3,
+.wg-portfolio .project-showcase .project-item h4,
+.wg-portfolio .project-showcase .project-item h5,
+.wg-portfolio .project-showcase .project-item h6,
+.wg-portfolio .project-showcase .project-item .article-style,
+.wg-portfolio .project-showcase .project-item .article-style p,
+.wg-portfolio .project-showcase .project-item .article-title,
+.wg-portfolio .project-showcase .col-lg-12 *,
+.wg-portfolio .project-showcase .col-md-6 *,
+.wg-portfolio .project-showcase .isotope-item * {
   color: #2d3748 !important;
   text-shadow: none !important;
 }
 
-.wg-portfolio.view-showcase .showcase .article-tags .badge,
-.wg-portfolio.view-showcase .showcase .article-tags .badge * {
+.wg-portfolio .project-showcase .project-item .article-tags .badge,
+.wg-portfolio .project-showcase .project-item .article-tags .badge * {
   color: white !important;
 }
 
-.wg-portfolio.view-showcase .showcase a:not(.badge) {
+.wg-portfolio .project-showcase .project-item a:not(.badge) {
   color: #3182ce !important;
   text-decoration: none !important;
 }
 
-.wg-portfolio.view-showcase .showcase a:not(.badge):hover {
+.wg-portfolio .project-showcase .project-item a:not(.badge):hover {
   color: #1a365d !important;
 }
 
-/* Showcase project image */
-.wg-portfolio.view-showcase .featured-image {
+/* Showcase project image - FIX: Use correct selectors */
+.wg-portfolio .project-showcase .project-item .featured-image {
   border-radius: 1rem !important;
   overflow: hidden !important;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
 }
 
-.wg-portfolio.view-showcase .featured-image img {
+.wg-portfolio .project-showcase .project-item .featured-image img {
   width: 100% !important;
   height: auto !important;
   transition: transform 0.4s ease !important;
 }
 
-.wg-portfolio.view-showcase .showcase:hover .featured-image img {
+.wg-portfolio .project-showcase .project-item:hover .featured-image img {
   transform: scale(1.05) !important;
 }
 
