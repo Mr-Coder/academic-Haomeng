@@ -128,7 +128,7 @@
 
 /* Fix About section text color for readability on light backgrounds */
 .home-section#about, .widget-about, .about-section {
-  color: #222 !important;
+  color: #f5f6fa !important;
 }
 
 .home-section#about h1,
@@ -137,5 +137,15 @@
 .home-section#about h4,
 .home-section#about h5,
 .home-section#about h6 {
-  color: #1a237e !important;
+  color: #fff !important;
+} 
+
+/* 侧边栏（profile widget）字体颜色修正 */
+.widget-author,
+.author-card,
+.author-card .author-name,
+.author-card .author-title,
+.author-card .author-organization,
+.author-card .author-links a {
+  color: #f5f6fa !important;
 } 
