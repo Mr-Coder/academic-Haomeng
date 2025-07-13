@@ -133,6 +133,42 @@
   border-radius: 4px;
 }
 
+/* Performance optimizations */
+.lazy-load {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.lazy-load.loaded {
+  opacity: 1;
+}
+
+/* Minimize reflows */
+.card, .publication-card {
+  will-change: transform;
+}
+
+/* Optimize animations */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Critical CSS improvements */
+.above-fold {
+  font-display: swap;
+}
+
+/* Web font loading optimization */
+@font-face {
+  font-family: 'Custom-Font';
+  font-display: swap;
+  src: url('font.woff2') format('woff2');
+}
+
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(45deg, #5a67d8, #6b46c1);
 } 
