@@ -1,19 +1,19 @@
 ---
-title: 基于感质结构的代数文字题求解系统
-summary: 主持华中师范大学优秀博士学位论文孵化项目，研究基于感质结构的包含常识知识的代数文字题求解方法。
+title: "Algebraic Word Problem Solving System Based on Qualia Structure"
+summary: "This project, supported by the Outstanding Doctoral Dissertation Incubation Program of Central China Normal University, focuses on methods for solving algebraic word problems based on qualia structure and commonsense knowledge."
 tags:
-- 智能教学系统
-- 代数文字题求解
-- 感质结构
-- 常识知识
-- 教育技术
+- Intelligent Tutoring System
+- Algebraic Word Problem Solving
+- Qualia Structure
+- Commonsense Knowledge
+- Educational Technology
 date: "2022-01-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: 基于感质结构的代数文字题求解系统架构
+  caption: "System Architecture Based on Qualia Structure for Algebraic Word Problem Solving"
   focal_point: Smart
 
 links:
@@ -34,92 +34,89 @@ url_video: ""
 slides: ""
 ---
 
-## 项目概述
+## Project Overview
 
-本项目是华中师范大学优秀博士学位论文孵化项目（2022-2023年），专注于研究基于感质结构的包含常识知识的代数文字题求解方法。该项目旨在通过结合感质结构与语法-语义模型，建立概念与场景之间的连接，扩展机器求解器在智能教学系统中的应用范围。
+This project (2022-2023) is supported by the Outstanding Doctoral Dissertation Incubation Program of Central China Normal University. It focuses on research into methods for solving algebraic word problems based on qualia structure and the integration of commonsense knowledge. The project aims to connect concepts and contexts by combining qualia structure with syntax-semantics models, expanding the application of machine solvers in intelligent tutoring systems.
 
-## 研究背景
+## Research Background
 
-传统的神经求解器使用端到端模型将问题文本转换为数学表达式，但在复杂场景中缺乏数量关系获取能力。本项目提出了基于感质角色的实体依赖图（EDG）来表示和提取数量关系，用于求解中文代数文字题。
+Traditional neural solvers use end-to-end models to convert problem text into mathematical expressions, but lack the ability to extract quantitative relationships in complex scenarios. This project proposes a qualia role-based entity-dependency graph (EDG) to represent and extract quantity relations for solving Chinese algebraic word problems.
 
-## 核心创新
+## Core Innovations
 
-### 1. 感质结构集成
-- **感质角色理论**：将感质结构（形式角色、构成角色、目的角色、施事角色）应用于数学对象分析
-- **概念-场景连接**：建立数学概念与实际场景之间的语义连接
-- **常识知识融合**：将常识知识有效融入数学问题求解过程
+### 1. Qualia Structure Integration
+- **Qualia Role Theory**: Applies qualia structure (formal, constitutive, telic, agentive roles) to analyze mathematical objects.
+- **Concept-Context Connection**: Establishes semantic links between mathematical concepts and real-world contexts.
+- **Commonsense Knowledge Fusion**: Effectively integrates commonsense knowledge into the problem-solving process.
 
-### 2. 实体依赖图（EDG）
-- **图结构表示**：使用图结构表示数学对象之间的依赖关系
-- **数量关系提取**：从感质角色中提取隐含的数量关系
-- **算法设计**：开发了EDG生成和数量关系提取的专用算法
+### 2. Entity-Dependency Graph (EDG)
+- **Graph Structure Representation**: Uses graph structures to represent dependency relations among mathematical objects.
+- **Quantity Relation Extraction**: Extracts implicit quantity relations from qualia roles.
+- **Algorithm Design**: Develops dedicated algorithms for EDG generation and quantity relation extraction.
 
-### 3. 中文语言处理
-- **中文特性**：针对中文代数文字题的特殊语言特性
-- **语言理解**：增强对中文数学表达的理解能力
-- **文化适应**：考虑中文数学教育的文化背景
+### 3. Chinese Language Processing
+- **Chinese-Specific Features**: Addresses unique linguistic features of Chinese algebraic word problems.
+- **Language Understanding**: Enhances understanding of Chinese mathematical expressions.
+- **Cultural Adaptation**: Considers the cultural context of Chinese mathematics education.
 
-## 技术架构
+## Technical Architecture
 
-### 系统组件
-1. **问题文本分析模块**
-   - 自然语言处理
-   - 实体识别与分类
-   - 语义角色标注
+### System Components
+1. **Problem Text Analysis Module**
+   - Natural Language Processing
+   - Entity Recognition and Classification
+   - Semantic Role Labeling
+2. **Qualia Structure Analysis Module**
+   - Qualia Role Identification
+   - Conceptual Relationship Modeling
+   - Commonsense Reasoning
+3. **EDG Construction Module**
+   - Entity Dependency Modeling
+   - Graph Generation
+   - Quantity Relation Extraction
+4. **Solver Engine**
+   - Mathematical Expression Generation
+   - Equation Solving
+   - Result Verification
 
-2. **感质结构分析模块**
-   - 感质角色识别
-   - 概念关系建模
-   - 常识知识推理
+## Research Outcomes
 
-3. **EDG构建模块**
-   - 实体依赖关系建模
-   - 图结构生成
-   - 数量关系提取
+### Academic Contributions
+- **SCI Journal Paper**: Published in Computer Modeling in Engineering and Sciences
+- **Conference Papers**: Multiple EI-indexed conference papers
+- **Algorithmic Innovation**: Proposed a novel framework for algebraic word problem solving
 
-4. **求解引擎**
-   - 数学表达式生成
-   - 方程求解
-   - 结果验证
+### Technical Breakthroughs
+- **Accuracy Improvement**: Significantly improved solution accuracy compared to traditional methods
+- **Interpretability Enhancement**: Provided better interpretability of the solving process
+- **Application Expansion**: Broadened the applicability of automatic solvers
 
-## 研究成果
+## Application Prospects
 
-### 学术贡献
-- **SCI期刊论文**：发表在《Computer Modeling in Engineering and Sciences》
-- **会议论文**：多篇EI会议论文发表
-- **算法创新**：提出了新的数学文字题求解算法框架
+### Intelligent Tutoring Systems
+- **Personalized Learning**: Provides personalized math problems based on student profiles
+- **Error Diagnosis**: Intelligently identifies student errors and offers targeted guidance
+- **Learning Path Planning**: Plans optimal learning paths based on student abilities
 
-### 技术突破
-- **准确率提升**：相比传统方法显著提高了求解准确率
-- **可解释性增强**：提供了更好的求解过程解释
-- **应用范围扩展**：扩大了自动求解器的适用范围
+### Educational Technology Platforms
+- **Automatic Problem Generation**: Intelligently generates math word problems of varying difficulty
+- **Intelligent Grading**: Automatically evaluates the correctness of student answers
+- **Learning Analytics**: Deeply analyzes student learning behaviors and cognitive processes
 
-## 应用前景
+## Project Impact
 
-### 智能教学系统
-- **个性化学习**：根据学生特点提供个性化的数学问题
-- **错误诊断**：智能识别学生的解题错误并提供针对性指导
-- **学习路径规划**：基于学生能力规划最优学习路径
+The research outcomes of this project have made significant academic contributions and provided technical support for practical educational applications. By integrating qualia structure theory with modern AI technology, the project opens new directions for the development of intelligent tutoring systems.
 
-### 教育技术平台
-- **自动出题**：智能生成不同难度的数学文字题
-- **智能评分**：自动评估学生答案的正确性
-- **学习分析**：深入分析学生的学习行为和认知过程
+## Future Development
 
-## 项目影响
+### Technical Expansion
+- **Multilingual Support**: Extend to math word problems in other languages
+- **Complex Problem Handling**: Address more complex types of math problems
+- **Real-Time Interaction**: Develop real-time human-computer interactive solvers
 
-本项目的研究成果不仅在学术界产生了重要影响，也为实际的教育应用提供了技术支撑。通过将感质结构理论与现代人工智能技术相结合，为智能教育系统的发展开辟了新的路径。
+### Application Extension
+- **Interdisciplinary Applications**: Extend methods to other subjects such as physics and chemistry
+- **Industrial Applications**: Promote the industrialization of the technology
+- **International Collaboration**: Conduct international collaborative research projects
 
-## 未来发展
-
-### 技术扩展
-- **多语言支持**：扩展到其他语言的数学文字题求解
-- **复杂问题处理**：处理更复杂的数学问题类型
-- **实时交互**：开发实时的人机交互求解系统
-
-### 应用拓展
-- **跨学科应用**：将方法扩展到物理、化学等其他学科
-- **产业化应用**：推动技术的产业化应用
-- **国际合作**：开展国际合作研究项目
-
-该项目代表了在智能教育领域的重要探索，为未来的教育技术发展奠定了坚实的理论和技术基础。 
+This project represents an important exploration in the field of intelligent education, laying a solid theoretical and technical foundation for the future development of educational technology. 

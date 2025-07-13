@@ -12,7 +12,7 @@
 # Choose a theme.
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
-#   Browse user installed themes in `data/themes/`
+#   Browse user installed font sets in `data/themes/`
 theme = "ocean"
 
 # Enable users to switch between day and night mode?
@@ -48,7 +48,11 @@ local_business_type = ""
 org_name = "Central China Normal University"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Hao Meng's Academic Homepage - Ph.D. Candidate in Education Technology at Central China Normal University, specializing in Intelligent Tutoring Systems, Technology Enhanced Learning, and Automated Problem Solving"
+description = "Hao Meng - Ph.D. candidate in Education Technology specializing in Intelligent Tutoring Systems and AI-enhanced learning at Central China Normal University."
+
+# Display a logo in navigation bar rather than title (optional).
+#   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+logo = ""
 
 ############################
 ## Site Features
@@ -57,28 +61,25 @@ description = "Hao Meng's Academic Homepage - Ph.D. Candidate in Education Techn
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["python", "r", "javascript", "html", "css", "bash", "java", "matlab"]  # Add support for highlighting additional languages
+highlight_languages = ["r", "python", "java"]  # Add/remove as desired
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-math = true
+math = false
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
-diagram = true
+diagram = false
 
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = true
+privacy_pack = false
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
 edit_page = {repo_url = "https://github.com/Mr-Coder/academic-Haomeng", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
-
-# Show related content at the bottom of pages?
-show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
 
 ############################
 ## Contact details
@@ -88,23 +89,23 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "menghao@mails.ccnu.edu.cn"
+email = "hmeng@mails.ccnu.edu.cn"
 phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Faculty of Artificial Intelligence in Education, Central China Normal University", city = "Wuhan", region = "Hubei Province", postcode = "430079", country = "China", country_code = "CN"}
+address = {street = "152 Luoyu Road", city = "Wuhan", region = "Hubei", postcode = "430079", country = "China", country_code = "CN"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "30.5234", longitude = "114.3142"}
+coordinates = {latitude = "30.5167", longitude = "114.3167"}
 
 # Directions for visitors to locate you.
-directions = "Faculty of Artificial Intelligence in Education, Central China Normal University"
+directions = "Enter Building and take the stairs to Office 200 on Floor 2"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = []
+office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""
@@ -112,11 +113,25 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  #{icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
+
+############################
+## Address formats
+############################
+
+# Available address formats.
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  en = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  zh = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
 
 ############################
 ## Social
@@ -132,102 +147,22 @@ twitter = ""
 ## Regional Settings
 ############################
 
-# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-#   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+# Date and time formatting refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2, 2006"
 time_format = "3:04 PM"
 
-# Address format (choose from the 15 available country formats - see https://sourcethemes.com/academic/docs/customization/#address-format)
-address_format = "en-us"
+# Address format (choose from the `address_formats` list above or create your own)
+address_format = "en"
 
 ############################
-## Advanced
+## Plugins
 ############################
 
-# Main menu alignment (l = left, c = center, r = right) and logo options.
-[main_menu]
-align = "l"
-show_logo = true
-highlight_active_link = true
-show_language = false
-show_day_night = true
-show_search = true
-
-# Show estimated reading time for posts? (true/false)
-reading_time = true
-
-# Display next/previous section pager? (true/false)
-section_pager = false
-docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
-
-# Enable in-built social sharing buttons? (true/false)
-sharing = true
-
-# Show a copyright license from creativecommons.org in the site footer?
-# Page specific copyright licenses are also possible by adding this option to a page's front matter.
-copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
-
-# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
-abstract_length = 135
-
-# Load JS plugins
+# Load CSS and JS plugins
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_css = ["custom"]
 plugins_js = []
-
-# Avatars.
-# An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
-[avatar]
-  # Get user avatars from Gravatar.com? (true/false)
-  gravatar = false
-
-  # Choose a shape for avatar images. Options: circle, square.
-  shape = "circle"
-
-# Available address formats.
-[address_formats]
-  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
-  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
-  de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
-  fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
-  zh = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
-
-# Configuration of publication pages.
-[publications]
-  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "January 2006"
-
-  # Citation style ("apa" or "mla")
-  citation_style = "apa"
-
-# Configuration of project pages.
-[projects]
-  # Views for associated content.
-  #   1: List
-  #   2: Compact
-  #   3: Card
-  #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
-
-############################
-## Comments
-############################
-[comments]
-  # Comment provider:
-  #   0: Disabled
-  #   1: Disqus (https://disqus.com)
-  #   2: Commento (https://commento.io)
-  provider = 0
-
-  # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
-
-  # Configuration of Disqus.
-  [comments.disqus]
-    shortname = ""  # Paste the shortname from your Disqus dashboard.
-    show_count = true  # Show comment count in page header? (true/false)
 
 ############################
 ## Search

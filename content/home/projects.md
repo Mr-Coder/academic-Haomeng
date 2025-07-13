@@ -18,7 +18,7 @@ subtitle = "🔬 Current and Past Research Initiatives"
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
   
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
+  # Default filter index (e.g. 0 corresponds to the first `[[content.filter_button]]` instance below).
   filter_default = 0
   
   [[content.filter_button]]
@@ -26,16 +26,16 @@ subtitle = "🔬 Current and Past Research Initiatives"
     tag = "*"
   
   [[content.filter_button]]
-    name = "AI Education"
-    tag = "AI Education"
+    name = "Intelligent Tutoring System"
+    tag = "Intelligent Tutoring System"
   
   [[content.filter_button]]
-    name = "Math Problem Solving"
-    tag = "Math Problem Solving"
-    
+    name = "Educational Technology"
+    tag = "Educational Technology"
+
   [[content.filter_button]]
-    name = "National Projects"
-    tag = "National Projects"
+    name = "Algorithm Research"
+    tag = "Algorithm Research"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -56,13 +56,13 @@ subtitle = "🔬 Current and Past Research Initiatives"
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+
   # Background color.
   # color = "navy"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  # gradient_start = "DarkGreen"
+  # gradient_end = "ForestGreen"
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/img/`.
@@ -79,5 +79,10 @@ subtitle = "🔬 Current and Past Research Initiatives"
  css_class = ""
 +++
 
-{{< button url="/project/" text="View All Research Projects" icon_pack="fas" icon="folder-open" color="primary" >}}
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="/project/" class="btn btn-primary btn-lg" style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); border: none; padding: 12px 30px; font-weight: 600;">
+    <i class="fas fa-folder-open" style="margin-right: 8px;"></i>
+    View All Research Projects
+  </a>
+</div>
 
