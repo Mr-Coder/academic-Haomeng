@@ -80,7 +80,7 @@ subtitle = ""
 +++
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="/project/" class="btn btn-primary btn-lg" style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); border: none; padding: 12px 30px; font-weight: 600;">
+  <a href="/project/" class="btn btn-primary btn-lg view-all-projects-btn" style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); border: none; padding: 12px 30px; font-weight: 600; color: white !important;">
     <i class="fas fa-folder-open" style="margin-right: 8px;"></i>
     View All Research Projects
   </a>

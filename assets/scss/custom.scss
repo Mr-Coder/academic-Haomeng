@@ -471,6 +471,38 @@ section.home-section.wg-portfolio,
   position: relative !important;
 }
 
+/* Force light theme for projects section regardless of global theme */
+section.home-section.wg-portfolio.dark,
+#projects.home-section.wg-portfolio.dark {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+}
+
+/* Override dark theme styles for projects section */
+section.home-section.wg-portfolio.dark *,
+#projects.home-section.wg-portfolio.dark * {
+  color: #2d3748 !important;
+}
+
+section.home-section.wg-portfolio.dark h1,
+section.home-section.wg-portfolio.dark h2,
+section.home-section.wg-portfolio.dark h3,
+#projects.home-section.wg-portfolio.dark h1,
+#projects.home-section.wg-portfolio.dark h2,
+#projects.home-section.wg-portfolio.dark h3 {
+  color: #1a365d !important;
+}
+
+section.home-section.wg-portfolio.dark a:not(.btn),
+#projects.home-section.wg-portfolio.dark a:not(.btn) {
+  color: #3182ce !important;
+  text-decoration: none !important;
+}
+
+section.home-section.wg-portfolio.dark a:not(.btn):hover,
+#projects.home-section.wg-portfolio.dark a:not(.btn):hover {
+  color: #1a365d !important;
+}
+
 /* Section title styling */
 section.home-section.wg-portfolio .section-heading h1,
 #projects.home-section.wg-portfolio .section-heading h1 {
@@ -512,6 +544,24 @@ section.home-section.wg-portfolio .section-heading h1::after,
 .wg-portfolio.view-showcase .showcase:hover {
   transform: translateY(-8px) !important;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Force white background for project cards even in dark mode */
+.dark .wg-portfolio.view-showcase .showcase {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+/* Ensure all text in project cards remains dark even in dark mode */
+.dark .wg-portfolio.view-showcase .showcase *,
+.dark .wg-portfolio.view-showcase .showcase h1,
+.dark .wg-portfolio.view-showcase .showcase h2,
+.dark .wg-portfolio.view-showcase .showcase h3,
+.dark .wg-portfolio.view-showcase .showcase h4,
+.dark .wg-portfolio.view-showcase .showcase p,
+.dark .wg-portfolio.view-showcase .showcase .article-style,
+.dark .wg-portfolio.view-showcase .showcase .article-style p {
+  color: #2d3748 !important;
 }
 
 /* Showcase content layout */
@@ -656,6 +706,32 @@ section.home-section.wg-portfolio .section-heading h1::after,
   color: white !important;
   transform: translateY(-3px) !important;
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4) !important;
+}
+
+/* Force filter buttons to maintain correct styling in dark mode */
+.dark .wg-portfolio .btn-toolbar .btn {
+  background: #ffffff !important;
+  border: 2px solid #e2e8f0 !important;
+  color: #4a5568 !important;
+}
+
+.dark .wg-portfolio .btn-toolbar .btn:hover,
+.dark .wg-portfolio .btn-toolbar .btn.active {
+  background: linear-gradient(45deg, #3182ce, #1a365d) !important;
+  border-color: transparent !important;
+  color: white !important;
+}
+
+/* Force View All Projects button to maintain correct styling in dark mode */
+.dark .view-all-projects-btn {
+  background: linear-gradient(45deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.dark .view-all-projects-btn:hover {
+  background: linear-gradient(45deg, #5a67d8 0%, #6b46c1 100%) !important;
+  color: white !important;
 }
 
 /* Responsive design */
