@@ -463,6 +463,375 @@ html {
   outline-offset: 2px;
 }
 
+/* Modern Research Projects Section */
+#projects.home-section.wg-portfolio {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+  padding: 6rem 0 !important;
+}
+
+/* Override default project card styling */
+#projects .project-card {
+  margin-bottom: 2rem !important;
+}
+
+#projects .project-card .card {
+  background: var(--bg-white) !important;
+  border-radius: 1.5rem !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  overflow: hidden !important;
+}
+
+#projects .project-card:hover .card {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+#projects .card-text {
+  padding: 2rem !important;
+}
+
+#projects .card-text h4 {
+  font-family: var(--font-serif) !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  color: var(--primary-color) !important;
+  margin-bottom: 1rem !important;
+}
+
+#projects .card-text h4 a {
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease !important;
+}
+
+#projects .card-text h4 a:hover {
+  color: var(--accent-color) !important;
+}
+
+#projects .article-style {
+  color: var(--text-gray) !important;
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Project filters */
+#projects .project-filters {
+  margin-bottom: 3rem !important;
+}
+
+#projects .btn-toolbar {
+  justify-content: center !important;
+}
+
+#projects .btn-toolbar .btn {
+  margin: 0.25rem !important;
+  padding: 0.5rem 1.5rem !important;
+  border-radius: 2rem !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+  transition: all 0.3s ease !important;
+  background: var(--bg-white) !important;
+  border: 2px solid var(--border-light) !important;
+  color: var(--text-light) !important;
+}
+
+#projects .btn-toolbar .btn:hover,
+#projects .btn-toolbar .btn.active {
+  background: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+  color: white !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4) !important;
+}
+
+/* Responsive grid */
+#projects .projects-container {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) !important;
+  gap: 2rem !important;
+  position: relative !important;
+  overflow: visible !important;
+}
+
+@media (max-width: 768px) {
+  #projects .projects-container {
+    grid-template-columns: 1fr !important;
+  }
+  
+  #projects .card-text {
+    padding: 1.5rem !important;
+  }
+}
+
+
+.projects-modern-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.project-card-modern {
+  background: var(--bg-white);
+  border-radius: 1.5rem;
+  padding: 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  position: relative;
+}
+
+.project-card-modern:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.project-card-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-color), var(--primary-color));
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.project-header {
+  padding: 2rem 2rem 1rem 2rem;
+  position: relative;
+}
+
+.project-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.project-title-modern {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.project-summary {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0 2rem;
+}
+
+.project-tag {
+  background: rgba(49, 130, 206, 0.1);
+  color: var(--accent-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(49, 130, 206, 0.2);
+}
+
+.project-footer {
+  padding: 1rem 2rem 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-date {
+  color: var(--text-light);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.project-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.project-stats {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.project-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+.project-stat i {
+  color: var(--accent-color);
+}
+
+/* Section Header Improvements */
+.projects-section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.projects-section-title {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.projects-section-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+/* Filter Buttons Modern Style */
+.project-filters-modern {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.filter-btn-modern {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--border-light);
+  background: var(--bg-white);
+  color: var(--text-light);
+  border-radius: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.filter-btn-modern:hover,
+.filter-btn-modern.active {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
+}
+
+/* View All Button */
+.view-all-projects {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.btn-view-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+  color: white;
+  text-decoration: none;
+  border-radius: 3rem;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: var(--shadow-soft);
+  transition: all 0.3s ease;
+}
+
+.btn-view-all:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-medium);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-view-all i {
+  font-size: 1.1rem;
+}
+
+/* Responsive Design for Projects */
+@media (max-width: 768px) {
+  .projects-modern-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .projects-section-title {
+    font-size: 2.2rem;
+  }
+  
+  .projects-section-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .project-filters-modern {
+    gap: 0.5rem;
+  }
+  
+  .filter-btn-modern {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .project-header {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+  
+  .project-tags {
+    padding: 0 1.5rem;
+  }
+  
+  .project-footer {
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
 /* Performance optimizations and accessibility */
 .lazy-load {
   opacity: 0;
