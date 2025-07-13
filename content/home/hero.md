@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Hao Meng (孟皓)"
+title = ""
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = ""
@@ -17,11 +17,11 @@ hero_media = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+  color = "#f7fafc"
   
   # Background gradient.
-  gradient_start = "#3f51b5"
-  gradient_end = "#1a237e"
+  # gradient_start = "#f7fafc"
+  # gradient_end = "#ffffff"
   
   # Background image.
   # image = ""  # Name of image in `static/img/`.
@@ -31,27 +31,46 @@ hero_media = ""
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [cta]
   url = "#about"
-  label = "Learn More About Me"
+  label = "Learn More"
   icon_pack = "fas"
-  icon = "user-graduate"
+  icon = "arrow-down"
   
 [cta_alt]
   url = "#publications"
-  label = "View My Research"
+  label = "View Research"
+  icon_pack = "fas"
+  icon = "book-open"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = '🎓 Central China Normal University • Faculty of AI in Education'
+  label = ''
 +++
 
-**Ph.D. Candidate in Education Technology**
-
-🚀 Exploring the intersection of **Artificial Intelligence** and **Education** to create innovative learning solutions for the future.
-
-🔬 Specializing in **Intelligent Tutoring Systems**, **Technology Enhanced Learning**, and **Automated Problem Solving** for mathematics education.
-
-📚 Developing cutting-edge **qualia role-based entity-dependency graphs** for Chinese algebra story problems.
+<div class="hero-container">
+  <div class="hero-content">
+    <h1 class="hero-title">Hao Meng</h1>
+    <p class="hero-subtitle">Ph.D. Candidate in Education Technology</p>
+    <p class="hero-description">
+      Exploring the intersection of <strong>Artificial Intelligence</strong> and <strong>Education</strong> to create innovative learning solutions. Specializing in Intelligent Tutoring Systems, automated problem solving, and educational technology research at Central China Normal University.
+    </p>
+    <div class="hero-cta">
+      <a href="#about" class="btn-modern btn-primary-modern">
+        <i class="fas fa-user-graduate"></i>
+        About Me
+      </a>
+      <a href="#publications" class="btn-modern btn-secondary-modern">
+        <i class="fas fa-book-open"></i>
+        Research
+      </a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-photo">
+      <img src="/authors/admin/avatar.jpg" alt="Hao Meng Profile Photo">
+    </div>
+  </div>
+</div>
